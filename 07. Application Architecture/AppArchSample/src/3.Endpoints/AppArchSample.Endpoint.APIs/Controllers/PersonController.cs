@@ -1,5 +1,4 @@
 ﻿using AppArchSample.Core.ApplicationServices;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AppArchSample.Endpoint.APIs.Controllers;
