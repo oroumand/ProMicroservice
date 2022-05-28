@@ -1,4 +1,6 @@
-﻿namespace EventSourcingSample.Framework;
+﻿using System.Reflection;
+
+namespace EventSourcingSample.Framework;
 public class AggregateRoot : Entity
 {
     private readonly List<IDomainEvent> _events = new List<IDomainEvent>();
@@ -29,8 +31,11 @@ public class AggregateRoot : Entity
         AddEvent(@event);
     }
 
-    private void Mutate(IDomainEvent @event)=>
-        ((dynamic)this).On((dynamic)@event);
+    private void Mutate(IDomainEvent @event)
+    {
+        var onMethod = this.GetType().GetMethod("On",BindingFlags.Instance | BindingFlags.NonPublic,new Type[] {@event.GetType()});
+        onMethod.Invoke(this, new[] { @event });
+    }
 
     public void ClearEvent()
     {
