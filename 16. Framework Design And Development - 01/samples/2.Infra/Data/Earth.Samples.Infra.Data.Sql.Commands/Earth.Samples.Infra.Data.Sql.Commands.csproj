@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\src\3.Infra\Data\Earth.Infra.Data.Sql.Commands\Earth.Infra.Data.Sql.Commands.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\Earth.Sample.Core.Domain\Earth.Samples.Core.Domain.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\Earth.Samples.Core.Contracts\Earth.Samples.Core.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>
