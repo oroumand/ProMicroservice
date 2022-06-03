@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\src\2.Core\Earth.Core.Contracts\Earth.Core.Contracts.csproj" />
+    <ProjectReference Include="..\Earth.Sample.Core.Domain\Earth.Samples.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

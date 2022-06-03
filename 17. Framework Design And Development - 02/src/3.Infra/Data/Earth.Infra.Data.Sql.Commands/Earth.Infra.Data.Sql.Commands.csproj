@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\1.Utilities\Earth.Utilities\Earth.Utilities.csproj" />
+    <ProjectReference Include="..\..\..\2.Core\Earth.Core.Contracts\Earth.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\2.Core\Earth.Core.Domain.Toolkits\Earth.Core.Domain.Toolkits.csproj" />
+    <ProjectReference Include="..\..\..\2.Core\Earth.Core.Domain\Earth.Core.Domain.csproj" />
+    <ProjectReference Include="..\Earth.Infra.Data.Sql\Earth.Infra.Data.Sql.csproj" />
+  </ItemGroup>
+
+</Project>
