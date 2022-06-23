@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Zamin.Infra.Data.Sql.Commands" Version="6.3.0-beta.6" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\1.Core\BasicInfo.Core.Contracts\BasicInfo.Core.Contracts.csproj" />
+    <ProjectReference Include="..\..\..\1.Core\BasicInfo.Core.Domain\BasicInfo.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
