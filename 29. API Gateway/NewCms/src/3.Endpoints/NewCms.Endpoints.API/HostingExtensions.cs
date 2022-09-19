@@ -4,6 +4,7 @@ using Zamin.Extensions.DependencyInjection;
 using Zamin.Infra.Data.Sql.Commands.Interceptors;
 using NewCms.Infra.Data.Sql.Commands.Common;
 using NewCms.Infra.Data.Sql.Queries.Common;
+using Steeltoe.Discovery.Client;
 
 namespace NewCms.Endpoints.API;
 
@@ -12,6 +13,7 @@ public static class HostingExtensions
     public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
     {
         string cnn = "Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ";
+        builder.Services.AddDiscoveryClient();
         builder.Services.AddZaminParrotTranslator(c =>
         {
             c.ConnectionString = cnn;
@@ -57,7 +59,7 @@ public static class HostingExtensions
             app.UseSwaggerUI();
         }
 
-        app.UseHttpsRedirection();
+        //app.UseHttpsRedirection();
 
         app.UseAuthorization();
 

@@ -1,0 +1,54 @@
+﻿@model NewCMSClient.Models.NewsViewModels.NewsDetailViewModel
+
+
+<div class="row g-0">
+    <div class="col-lg-8 mx-auto">
+        <div class="h5 mb-5 fw-bold">جزییات خبر</div>
+
+        <div class="h6 mt-5 mb-3">محتوای خبر</div>
+        <div class="rounded border p-4">
+
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label fw-bold">عنوان</label>
+                <div class="col-sm-10">
+                    <div class="form-control-plaintext">
+                        @Model.title
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label fw-bold">توضیحات مختصر</label>
+                <div class="col-sm-10">
+                    <div class="form-control-plaintext">
+                        @Model.description
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label fw-bold">بدنه خبر</label>
+                <div class="col-sm-10">
+                    <div class="form-control-plaintext">
+                        @Html.Raw(Model.body)
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3 row">
+                <label class="col-sm-2 col-form-label fw-bold">کلمات کلیدی</label>
+                <div class="col-sm-10">
+                    <div class="form-control-plaintext">
+                        @foreach (var item in Model.keywords)
+                        {
+                            <a href="#" class="btn btn-info btn-sm">@item</a>
+
+                        }
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="text-end py-5">
+            <a asp-action="Index" class="btn btn-outline-secondary">بازگشت</a>
+            <button class="btn btn-primary px-5">ویرایش خبر</button>
+        </div>
+    </div>
+</div>

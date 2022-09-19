@@ -17,13 +17,13 @@ namespace NewCms.Endpoints.API.NewsAgg
             return await Create(createBlog);
         }
 
-        [HttpGet("/GetList")]
+        [HttpGet("GetList")]
         public async Task<IActionResult> Get([FromQuery] NewsList newsList)
         {
             return await Query<NewsList, PagedData<NewsListResult>>(newsList);
         }
 
-        [HttpGet("/GetDetail")]
+        [HttpGet("GetDetail")]
         public async Task<IActionResult> Get([FromQuery] NewsDetaile newsDetaile)
         {
             return await Query<NewsDetaile, NewsDetaileResult>(newsDetaile);

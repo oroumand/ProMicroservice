@@ -4,6 +4,7 @@ using Zamin.Extensions.DependencyInjection;
 using Zamin.Infra.Data.Sql.Commands.Interceptors;
 using BasicInfo.Infra.Data.Sql.Commands.Common;
 using BasicInfo.Infra.Data.Sql.Queries.Common;
+using Steeltoe.Discovery.Client;
 
 namespace BasicInfo.Endpoints.API;
 
@@ -12,6 +13,7 @@ public static class HostingExtensions
     public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
     {
         string cnn = builder.Configuration.GetConnectionString("BasicInfoCommand_ConnectionString");
+        builder.Services.AddDiscoveryClient();
         builder.Services.AddZaminParrotTranslator(c =>
         {
             c.ConnectionString = cnn;
@@ -54,7 +56,7 @@ public static class HostingExtensions
             app.UseSwaggerUI();
         }
 
-        app.UseHttpsRedirection();
+        //app.UseHttpsRedirection();
 
         app.UseAuthorization();
 
