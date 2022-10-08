@@ -15,6 +15,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitSamples.LoadBalancing
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitSamples.LoadBalancing.Receiver", "LoadBalancing\RabbitSamples.LoadBalancing.Receiver\RabbitSamples.LoadBalancing.Receiver.csproj", "{C85F8298-15BB-47FA-BFD6-83A592CC8C9C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.PubSub", "03.PubSub", "{74226C03-01C2-42A8-9F28-BEE97C020A29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitSamples.PubSub.Sender", "PubSub\RabbitSamples.PubSub.Sender\RabbitSamples.PubSub.Sender.csproj", "{3C1B85FE-3F16-4393-B034-10AAA200BC54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitSamples.PubSub.ConsoleReceiver", "PubSub\RabbitSamples.PubSub.ConsoleReceiver\RabbitSamples.PubSub.ConsoleReceiver.csproj", "{088EAD8B-B7B5-4EE9-B68F-AB2E787F96F6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitSamples.PubSub.EmailReceiver", "PubSub\RabbitSamples.PubSub.EmailReceiver\RabbitSamples.PubSub.EmailReceiver.csproj", "{91EC6049-6EE4-41E2-B28B-196C91CC3C92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +45,18 @@ Global
 		{C85F8298-15BB-47FA-BFD6-83A592CC8C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C85F8298-15BB-47FA-BFD6-83A592CC8C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C85F8298-15BB-47FA-BFD6-83A592CC8C9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C1B85FE-3F16-4393-B034-10AAA200BC54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C1B85FE-3F16-4393-B034-10AAA200BC54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C1B85FE-3F16-4393-B034-10AAA200BC54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C1B85FE-3F16-4393-B034-10AAA200BC54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088EAD8B-B7B5-4EE9-B68F-AB2E787F96F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088EAD8B-B7B5-4EE9-B68F-AB2E787F96F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088EAD8B-B7B5-4EE9-B68F-AB2E787F96F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088EAD8B-B7B5-4EE9-B68F-AB2E787F96F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91EC6049-6EE4-41E2-B28B-196C91CC3C92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91EC6049-6EE4-41E2-B28B-196C91CC3C92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91EC6049-6EE4-41E2-B28B-196C91CC3C92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91EC6049-6EE4-41E2-B28B-196C91CC3C92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +66,9 @@ Global
 		{85722148-38B3-4069-9F65-0117320E0F08} = {1CAE3B69-B6E6-456F-B50F-5E7F59BE2BC7}
 		{90C95FEF-2667-450E-83FF-EA1B8DB7E748} = {F244BC76-F519-47EB-8415-0661DAD71095}
 		{C85F8298-15BB-47FA-BFD6-83A592CC8C9C} = {F244BC76-F519-47EB-8415-0661DAD71095}
+		{3C1B85FE-3F16-4393-B034-10AAA200BC54} = {74226C03-01C2-42A8-9F28-BEE97C020A29}
+		{088EAD8B-B7B5-4EE9-B68F-AB2E787F96F6} = {74226C03-01C2-42A8-9F28-BEE97C020A29}
+		{91EC6049-6EE4-41E2-B28B-196C91CC3C92} = {74226C03-01C2-42A8-9F28-BEE97C020A29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3605B33E-E861-4D01-841F-3DE2E0BA9A12}
