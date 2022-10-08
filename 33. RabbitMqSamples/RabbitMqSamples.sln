@@ -5,9 +5,15 @@ VisualStudioVersion = 17.3.32811.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.HelloWorld", "01.HelloWorld", "{1CAE3B69-B6E6-456F-B50F-5E7F59BE2BC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.HelloWorld.Sender", "RabbitMqSamples\RabbitMqSamples.HelloWorld.Sender\RabbitMqSamples.HelloWorld.Sender.csproj", "{DE25E9A9-0D6A-4937-921A-386CD6CB9BD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.HelloWorld.Sender", "RabbitMqSamples\RabbitMqSamples.HelloWorld.Sender\RabbitMqSamples.HelloWorld.Sender.csproj", "{DE25E9A9-0D6A-4937-921A-386CD6CB9BD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMqSamples.HelloWorld.Receiver", "RabbitMqSamples\RabbitMqSamples.HelloWorld.Receiver\RabbitMqSamples.HelloWorld.Receiver.csproj", "{85722148-38B3-4069-9F65-0117320E0F08}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMqSamples.HelloWorld.Receiver", "RabbitMqSamples\RabbitMqSamples.HelloWorld.Receiver\RabbitMqSamples.HelloWorld.Receiver.csproj", "{85722148-38B3-4069-9F65-0117320E0F08}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.LoadBalancing", "02.LoadBalancing", "{F244BC76-F519-47EB-8415-0661DAD71095}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitSamples.LoadBalancing.Sender", "LoadBalancing\RabbitSamples.LoadBalancing.Sender\RabbitSamples.LoadBalancing.Sender.csproj", "{90C95FEF-2667-450E-83FF-EA1B8DB7E748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitSamples.LoadBalancing.Receiver", "LoadBalancing\RabbitSamples.LoadBalancing.Receiver\RabbitSamples.LoadBalancing.Receiver.csproj", "{C85F8298-15BB-47FA-BFD6-83A592CC8C9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,14 @@ Global
 		{85722148-38B3-4069-9F65-0117320E0F08}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85722148-38B3-4069-9F65-0117320E0F08}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85722148-38B3-4069-9F65-0117320E0F08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C95FEF-2667-450E-83FF-EA1B8DB7E748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C95FEF-2667-450E-83FF-EA1B8DB7E748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C95FEF-2667-450E-83FF-EA1B8DB7E748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C95FEF-2667-450E-83FF-EA1B8DB7E748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85F8298-15BB-47FA-BFD6-83A592CC8C9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85F8298-15BB-47FA-BFD6-83A592CC8C9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85F8298-15BB-47FA-BFD6-83A592CC8C9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85F8298-15BB-47FA-BFD6-83A592CC8C9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{DE25E9A9-0D6A-4937-921A-386CD6CB9BD2} = {1CAE3B69-B6E6-456F-B50F-5E7F59BE2BC7}
 		{85722148-38B3-4069-9F65-0117320E0F08} = {1CAE3B69-B6E6-456F-B50F-5E7F59BE2BC7}
+		{90C95FEF-2667-450E-83FF-EA1B8DB7E748} = {F244BC76-F519-47EB-8415-0661DAD71095}
+		{C85F8298-15BB-47FA-BFD6-83A592CC8C9C} = {F244BC76-F519-47EB-8415-0661DAD71095}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3605B33E-E861-4D01-841F-3DE2E0BA9A12}
