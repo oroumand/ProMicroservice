@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Zamin.Core.ApplicationServices" Version="6.3.0-beta.8" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NewCms.Core.Contracts\NewCms.Core.Contracts.csproj" />
+    <ProjectReference Include="..\NewCms.Core.Domain\NewCms.Core.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

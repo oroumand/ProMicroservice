@@ -1,0 +1,47 @@
+﻿@model NewCMSClient.Models.NewsViewModels.ViewCreateNewsViewModel
+
+<div class="row g-0">
+    <div class="col-lg-8 mx-auto">
+        <div class="h5 mb-5 fw-bold">ثبت خبر</div>
+        <form asp-action="Save" method="post">
+            <input type="hidden" asp-for="SaveModel.BusunessId" />
+            <div class="h6 mt-5 mb-3">محتوای خبر</div>
+            <div class="rounded border p-4">
+                <div class="mb-3">
+                    <label asp-for="SaveModel.Title" class="form-label">عنوان</label>
+                    <input type="text" class="form-control" asp-for="SaveModel.Title">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">توضیحات مختصر</label>
+                    <textarea class="form-control" asp-for="SaveModel.Description" rows="2"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea2" class="form-label">بدنه خبر</label>
+                    <textarea class="form-control" asp-for="SaveModel.Body" rows="5"></textarea>
+                </div>
+
+            </div>
+            <div class="h6 mt-5 mb-3">کلمات کلیدی</div>
+            <div class="rounded border p-4">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                    @foreach (var item in Model.Keywords)
+                    {
+                        <div class="col">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="@item.Key" id="SaveModel.KeywordsId" name="SaveModel.KeywordsId">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                    @item.Value
+                                </label>
+                            </div>
+                        </div>
+                    }
+
+
+                </div>
+            </div>
+            <div class="text-end py-5">
+                <button type="submit" class="btn btn-success px-5">ثبت خبر</button>
+            </div>
+        </form>
+    </div>
+</div>
