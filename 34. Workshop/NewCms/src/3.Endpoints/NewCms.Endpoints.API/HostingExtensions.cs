@@ -5,8 +5,8 @@ using Zamin.Infra.Data.Sql.Commands.Interceptors;
 using NewCms.Infra.Data.Sql.Commands.Common;
 using NewCms.Infra.Data.Sql.Queries.Common;
 using Steeltoe.Discovery.Client;
-using BasicInfo.Endpoints.API.BackgroundTasks;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using NewCms.Endpoints.API.BackgroundTasks;
 
 namespace NewCms.Endpoints.API;
 
@@ -57,7 +57,6 @@ public static class HostingExtensions
     {
         app.UseZaminApiExceptionHandler();
         app.UseSerilogRequestLogging();
-
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();

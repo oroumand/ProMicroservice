@@ -7,7 +7,7 @@ using System.Collections.Concurrent;
 using System.Text.Json.Serialization;
 using Zamin.Core.Domain.Events;
 
-namespace BasicInfo.Endpoints.API.BackgroundTasks;
+namespace NewCms.Endpoints.API.BackgroundTasks;
 
 public class KeywordCreatedReceiver : BackgroundService
 {
@@ -42,7 +42,7 @@ public class KeywordCreatedReceiver : BackgroundService
         var messageText = System.Text.Encoding.UTF8.GetString(e.Body.ToArray());
         var keywordEvent = JsonConvert.DeserializeObject<KeywordCreated>(messageText);
         string commandText = $"INSERT INTO [dbo].[Keyword]([KeywordBusinessId],[KeywordTitle]) VALUES ('{keywordEvent.BusinessId}',N'{keywordEvent.Title}')";
-        SqlCommand command = new SqlCommand(commandText,sqlConnection);
+        SqlCommand command = new SqlCommand(commandText, sqlConnection);
         command.ExecuteNonQuery();
         _messageCount++;
     }
@@ -52,7 +52,7 @@ public class KeywordCreatedReceiver : BackgroundService
         while (!stoppingToken.IsCancellationRequested)
         {
             Console.WriteLine($"Message count is  {_messageCount} at {DateTime.Now.ToString()}");
-            _messageCount=0;
+            _messageCount = 0;
             await Task.Delay(10000, stoppingToken);
         }
 

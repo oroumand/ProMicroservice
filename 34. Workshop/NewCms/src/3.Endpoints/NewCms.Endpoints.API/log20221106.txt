@@ -1,0 +1,618 @@
+2022-11-06 12:07:50.681 +03:30 [INF] Start processing HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 12:07:50.779 +03:30 [INF] Sending HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 12:07:51.220 +03:30 [INF] Received HTTP response headers after 424.6854ms - 204
+2022-11-06 12:07:51.231 +03:30 [INF] End processing HTTP request after 581.6959ms - 204
+2022-11-06 12:07:51.273 +03:30 [INF] Starting HeartBeat
+2022-11-06 12:07:52.685 +03:30 [INF] Microsoft Serializer Start working
+2022-11-06 12:07:52.767 +03:30 [INF] Parrot Translator try to create table in database with connection Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ. Schema name is dbo. Table name is ParrotTranslations
+2022-11-06 12:07:53.169 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:07:53.1690091+03:30"
+2022-11-06 12:07:53.302 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:07:53.3025473+03:30". Total record count is 10
+2022-11-06 12:07:53.314 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:07:53.3141482+03:30"
+2022-11-06 12:07:53.340 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:07:53.3400286+03:30". Total record count is 10
+2022-11-06 12:07:53.346 +03:30 [INF] Parrot Translator Start working with culture en-US
+2022-11-06 12:07:53.564 +03:30 [INF] Now listening on: https://localhost:7101
+2022-11-06 12:07:53.570 +03:30 [INF] Now listening on: http://localhost:7100
+2022-11-06 12:07:53.574 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-06 12:07:53.592 +03:30 [INF] Hosting environment: Development
+2022-11-06 12:07:53.596 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCms\src\3.Endpoints\NewCms.Endpoints.API\
+2022-11-06 12:07:54.971 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/index.html - -
+2022-11-06 12:07:55.404 +03:30 [INF] HTTP GET /swagger/index.html responded 200 in 305.2051 ms
+2022-11-06 12:07:55.432 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - -
+2022-11-06 12:07:55.469 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 35.4117ms
+2022-11-06 12:07:55.469 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/index.html - - - 200 - text/html;charset=utf-8 507.9249ms
+2022-11-06 12:07:55.547 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_vs/browserLink - -
+2022-11-06 12:07:55.695 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 148.4737ms
+2022-11-06 12:07:55.940 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - -
+2022-11-06 12:07:56.355 +03:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 403.4306 ms
+2022-11-06 12:07:56.390 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 449.9119ms
+2022-11-06 12:08:21.312 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:08:21.314 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:08:21.351 +03:30 [INF] Received HTTP response headers after 35.7428ms - 200
+2022-11-06 12:08:21.353 +03:30 [INF] End processing HTTP request after 40.7235ms - 200
+2022-11-06 12:08:51.289 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:08:51.291 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:08:51.329 +03:30 [INF] Received HTTP response headers after 36.5705ms - 200
+2022-11-06 12:08:51.330 +03:30 [INF] End processing HTTP request after 41.3229ms - 200
+2022-11-06 12:08:53.366 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:08:53.3660872+03:30"
+2022-11-06 12:08:53.384 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:08:53.3841343+03:30". Total record count is 10
+2022-11-06 12:09:21.296 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:09:21.298 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:09:21.328 +03:30 [INF] Received HTTP response headers after 28.6141ms - 200
+2022-11-06 12:09:21.329 +03:30 [INF] End processing HTTP request after 32.8183ms - 200
+2022-11-06 12:09:51.290 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:09:51.293 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:09:51.334 +03:30 [INF] Received HTTP response headers after 39.1418ms - 200
+2022-11-06 12:09:51.335 +03:30 [INF] End processing HTTP request after 44.353ms - 200
+2022-11-06 12:09:53.352 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:09:53.3522430+03:30"
+2022-11-06 12:09:53.366 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:09:53.3669110+03:30". Total record count is 10
+2022-11-06 12:10:21.289 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:10:21.291 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:10:21.326 +03:30 [INF] Received HTTP response headers after 33.5765ms - 200
+2022-11-06 12:10:21.327 +03:30 [INF] End processing HTTP request after 38.8076ms - 200
+2022-11-06 12:10:51.293 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:10:51.297 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:10:51.332 +03:30 [INF] Received HTTP response headers after 33.8752ms - 200
+2022-11-06 12:10:51.334 +03:30 [INF] End processing HTTP request after 41.1091ms - 200
+2022-11-06 12:10:53.352 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:10:53.3527338+03:30"
+2022-11-06 12:10:53.365 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:10:53.3650525+03:30". Total record count is 10
+2022-11-06 12:11:21.285 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:11:21.287 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:11:21.313 +03:30 [INF] Received HTTP response headers after 24.8986ms - 200
+2022-11-06 12:11:21.314 +03:30 [INF] End processing HTTP request after 28.871ms - 200
+2022-11-06 12:11:51.294 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:11:51.300 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:11:51.327 +03:30 [INF] Received HTTP response headers after 26.8034ms - 200
+2022-11-06 12:11:51.329 +03:30 [INF] End processing HTTP request after 34.4002ms - 200
+2022-11-06 12:11:53.367 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:11:53.3669999+03:30"
+2022-11-06 12:11:53.380 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:11:53.3800270+03:30". Total record count is 10
+2022-11-06 12:12:21.292 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:12:21.296 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:12:21.330 +03:30 [INF] Received HTTP response headers after 32.6669ms - 200
+2022-11-06 12:12:21.333 +03:30 [INF] End processing HTTP request after 41.1955ms - 200
+2022-11-06 12:12:51.288 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:12:51.289 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:12:51.328 +03:30 [INF] Received HTTP response headers after 38.5047ms - 200
+2022-11-06 12:12:51.330 +03:30 [INF] End processing HTTP request after 42.2469ms - 200
+2022-11-06 12:12:53.346 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:12:53.3467344+03:30"
+2022-11-06 12:12:53.362 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:12:53.3624361+03:30". Total record count is 10
+2022-11-06 12:13:21.292 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:13:21.297 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:13:21.333 +03:30 [INF] Received HTTP response headers after 35.2912ms - 200
+2022-11-06 12:13:21.334 +03:30 [INF] End processing HTTP request after 42.4097ms - 200
+2022-11-06 12:13:51.295 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:13:51.299 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:13:51.339 +03:30 [INF] Received HTTP response headers after 38.3792ms - 200
+2022-11-06 12:13:51.342 +03:30 [INF] End processing HTTP request after 47.4892ms - 200
+2022-11-06 12:13:53.371 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:13:53.3714638+03:30"
+2022-11-06 12:13:53.392 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:13:53.3923822+03:30". Total record count is 10
+2022-11-06 12:14:21.298 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:14:21.301 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:14:21.329 +03:30 [INF] Received HTTP response headers after 26.8913ms - 200
+2022-11-06 12:14:21.331 +03:30 [INF] End processing HTTP request after 32.2677ms - 200
+2022-11-06 12:14:51.287 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:14:51.289 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:14:51.314 +03:30 [INF] Received HTTP response headers after 24.6309ms - 200
+2022-11-06 12:14:51.320 +03:30 [INF] End processing HTTP request after 32.3089ms - 200
+2022-11-06 12:14:53.351 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:14:53.3511465+03:30"
+2022-11-06 12:14:53.363 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:14:53.3636295+03:30". Total record count is 10
+2022-11-06 12:15:21.296 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:15:21.312 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667723870383"
+2022-11-06 12:15:21.344 +03:30 [INF] Received HTTP response headers after 31.4051ms - 200
+2022-11-06 12:15:21.345 +03:30 [INF] End processing HTTP request after 49.8011ms - 200
+2022-11-06 12:16:21.472 +03:30 [INF] Start processing HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 12:16:21.526 +03:30 [INF] Sending HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 12:16:21.725 +03:30 [INF] Received HTTP response headers after 193.638ms - 204
+2022-11-06 12:16:21.727 +03:30 [INF] End processing HTTP request after 271.9265ms - 204
+2022-11-06 12:16:21.737 +03:30 [INF] Starting HeartBeat
+2022-11-06 12:16:21.971 +03:30 [INF] Microsoft Serializer Start working
+2022-11-06 12:16:22.013 +03:30 [INF] Parrot Translator try to create table in database with connection Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ. Schema name is dbo. Table name is ParrotTranslations
+2022-11-06 12:16:22.206 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:16:22.2061435+03:30"
+2022-11-06 12:16:22.282 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:16:22.2823846+03:30". Total record count is 10
+2022-11-06 12:16:22.288 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:16:22.2883754+03:30"
+2022-11-06 12:16:22.305 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:16:22.3058040+03:30". Total record count is 10
+2022-11-06 12:16:22.306 +03:30 [INF] Parrot Translator Start working with culture en-US
+2022-11-06 12:16:22.405 +03:30 [INF] Now listening on: https://localhost:7101
+2022-11-06 12:16:22.408 +03:30 [INF] Now listening on: http://localhost:7100
+2022-11-06 12:16:22.409 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-06 12:16:22.409 +03:30 [INF] Hosting environment: Development
+2022-11-06 12:16:22.410 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCms\src\3.Endpoints\NewCms.Endpoints.API\
+2022-11-06 12:16:23.133 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/index.html - -
+2022-11-06 12:16:23.479 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - -
+2022-11-06 12:16:23.481 +03:30 [INF] HTTP GET /swagger/index.html responded 200 in 248.9377 ms
+2022-11-06 12:16:23.495 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 15.1606ms
+2022-11-06 12:16:23.523 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/index.html - - - 200 - text/html;charset=utf-8 393.3387ms
+2022-11-06 12:16:23.572 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_vs/browserLink - -
+2022-11-06 12:16:23.664 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 91.8766ms
+2022-11-06 12:16:23.761 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - -
+2022-11-06 12:16:23.931 +03:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 167.4502 ms
+2022-11-06 12:16:23.934 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 173.5960ms
+2022-11-06 12:16:51.763 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:16:51.765 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:16:51.809 +03:30 [INF] Received HTTP response headers after 43.5467ms - 200
+2022-11-06 12:16:51.817 +03:30 [INF] End processing HTTP request after 53.8121ms - 200
+2022-11-06 12:17:21.752 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:17:21.755 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:17:21.790 +03:30 [INF] Received HTTP response headers after 33.4621ms - 200
+2022-11-06 12:17:21.791 +03:30 [INF] End processing HTTP request after 39.7235ms - 200
+2022-11-06 12:17:22.328 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:17:22.3286939+03:30"
+2022-11-06 12:17:22.345 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:17:22.3454061+03:30". Total record count is 10
+2022-11-06 12:17:51.741 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:17:51.743 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:17:51.772 +03:30 [INF] Received HTTP response headers after 28.1293ms - 200
+2022-11-06 12:17:51.775 +03:30 [INF] End processing HTTP request after 34.575ms - 200
+2022-11-06 12:18:21.740 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:18:21.742 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:18:21.774 +03:30 [INF] Received HTTP response headers after 31.4234ms - 200
+2022-11-06 12:18:21.778 +03:30 [INF] End processing HTTP request after 38.3789ms - 200
+2022-11-06 12:18:22.317 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:18:22.3170764+03:30"
+2022-11-06 12:18:22.331 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:18:22.3314482+03:30". Total record count is 10
+2022-11-06 12:18:51.739 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:18:51.756 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:18:51.789 +03:30 [INF] Received HTTP response headers after 31.9362ms - 200
+2022-11-06 12:18:51.790 +03:30 [INF] End processing HTTP request after 51.8351ms - 200
+2022-11-06 12:19:21.747 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:19:21.749 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:19:21.782 +03:30 [INF] Received HTTP response headers after 32.274ms - 200
+2022-11-06 12:19:21.783 +03:30 [INF] End processing HTTP request after 36.4419ms - 200
+2022-11-06 12:19:22.325 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:19:22.3250257+03:30"
+2022-11-06 12:19:22.348 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:19:22.3480553+03:30". Total record count is 10
+2022-11-06 12:19:51.750 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:19:51.755 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:19:51.790 +03:30 [INF] Received HTTP response headers after 33.9843ms - 200
+2022-11-06 12:19:51.791 +03:30 [INF] End processing HTTP request after 40.8792ms - 200
+2022-11-06 12:20:21.758 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:20:21.761 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:20:21.795 +03:30 [INF] Received HTTP response headers after 32.7039ms - 200
+2022-11-06 12:20:21.796 +03:30 [INF] End processing HTTP request after 37.8425ms - 200
+2022-11-06 12:20:22.319 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:20:22.3191973+03:30"
+2022-11-06 12:20:22.332 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:20:22.3325702+03:30". Total record count is 10
+2022-11-06 12:20:51.739 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:20:51.750 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:20:51.817 +03:30 [INF] Received HTTP response headers after 64.5965ms - 200
+2022-11-06 12:20:51.825 +03:30 [INF] End processing HTTP request after 86.9006ms - 200
+2022-11-06 12:21:21.741 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:21:21.742 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:21:21.764 +03:30 [INF] Received HTTP response headers after 20.813ms - 200
+2022-11-06 12:21:21.765 +03:30 [INF] End processing HTTP request after 24.2373ms - 200
+2022-11-06 12:21:22.318 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:21:22.3180183+03:30"
+2022-11-06 12:21:22.337 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:21:22.3375460+03:30". Total record count is 10
+2022-11-06 12:21:51.742 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:21:51.746 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:21:51.781 +03:30 [INF] Received HTTP response headers after 32.1187ms - 200
+2022-11-06 12:21:51.786 +03:30 [INF] End processing HTTP request after 43.9546ms - 200
+2022-11-06 12:22:21.750 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:22:21.764 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:22:21.819 +03:30 [INF] Received HTTP response headers after 48.3543ms - 200
+2022-11-06 12:22:21.825 +03:30 [INF] End processing HTTP request after 75.2092ms - 200
+2022-11-06 12:22:22.320 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:22:22.3199315+03:30"
+2022-11-06 12:22:22.349 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:22:22.3493918+03:30". Total record count is 10
+2022-11-06 12:22:51.745 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:22:51.749 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:22:51.801 +03:30 [INF] Received HTTP response headers after 44.8227ms - 200
+2022-11-06 12:22:51.805 +03:30 [INF] End processing HTTP request after 59.3825ms - 200
+2022-11-06 12:23:21.751 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:23:21.758 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:23:21.821 +03:30 [INF] Received HTTP response headers after 60.7279ms - 200
+2022-11-06 12:23:21.823 +03:30 [INF] End processing HTTP request after 72.1004ms - 200
+2022-11-06 12:23:22.323 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:23:22.3232431+03:30"
+2022-11-06 12:23:22.370 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:23:22.3705698+03:30". Total record count is 10
+2022-11-06 12:23:51.745 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:23:51.753 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:23:51.803 +03:30 [INF] Received HTTP response headers after 47.9072ms - 200
+2022-11-06 12:23:51.809 +03:30 [INF] End processing HTTP request after 63.8744ms - 200
+2022-11-06 12:24:21.751 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:24:21.754 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:24:21.791 +03:30 [INF] Received HTTP response headers after 35.7435ms - 200
+2022-11-06 12:24:21.792 +03:30 [INF] End processing HTTP request after 41.0692ms - 200
+2022-11-06 12:24:22.310 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:24:22.3101204+03:30"
+2022-11-06 12:24:22.334 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:24:22.3340036+03:30". Total record count is 10
+2022-11-06 12:24:51.742 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:24:51.757 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:24:51.798 +03:30 [INF] Received HTTP response headers after 39.4512ms - 200
+2022-11-06 12:24:51.800 +03:30 [INF] End processing HTTP request after 57.9114ms - 200
+2022-11-06 12:25:21.755 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:25:21.761 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:25:21.806 +03:30 [INF] Received HTTP response headers after 43.7062ms - 200
+2022-11-06 12:25:21.808 +03:30 [INF] End processing HTTP request after 53.2432ms - 200
+2022-11-06 12:25:22.314 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:25:22.3143445+03:30"
+2022-11-06 12:25:22.334 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:25:22.3348536+03:30". Total record count is 10
+2022-11-06 12:25:51.754 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:25:51.758 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:25:51.795 +03:30 [INF] Received HTTP response headers after 35.4851ms - 200
+2022-11-06 12:25:51.797 +03:30 [INF] End processing HTTP request after 42.7092ms - 200
+2022-11-06 12:26:21.742 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:26:21.744 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:26:21.780 +03:30 [INF] Received HTTP response headers after 34.8991ms - 200
+2022-11-06 12:26:21.782 +03:30 [INF] End processing HTTP request after 40.333ms - 200
+2022-11-06 12:26:22.316 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:26:22.3165718+03:30"
+2022-11-06 12:26:22.352 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:26:22.3521483+03:30". Total record count is 10
+2022-11-06 12:26:51.747 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:26:51.752 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:26:51.792 +03:30 [INF] Received HTTP response headers after 36.2601ms - 200
+2022-11-06 12:26:51.794 +03:30 [INF] End processing HTTP request after 46.7374ms - 200
+2022-11-06 12:27:21.752 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:27:21.759 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:27:21.810 +03:30 [INF] Received HTTP response headers after 49.9078ms - 200
+2022-11-06 12:27:21.815 +03:30 [INF] End processing HTTP request after 63.647ms - 200
+2022-11-06 12:27:22.327 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:27:22.3277726+03:30"
+2022-11-06 12:27:22.343 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:27:22.3430620+03:30". Total record count is 10
+2022-11-06 12:27:51.757 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:27:51.760 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:27:51.819 +03:30 [INF] Received HTTP response headers after 53.9547ms - 200
+2022-11-06 12:27:51.821 +03:30 [INF] End processing HTTP request after 64.3647ms - 200
+2022-11-06 12:28:21.745 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:28:21.757 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:28:21.798 +03:30 [INF] Received HTTP response headers after 39.8335ms - 200
+2022-11-06 12:28:21.800 +03:30 [INF] End processing HTTP request after 55.2461ms - 200
+2022-11-06 12:28:22.316 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:28:22.3161138+03:30"
+2022-11-06 12:28:22.337 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:28:22.3372563+03:30". Total record count is 10
+2022-11-06 12:28:51.746 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:28:51.749 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:28:51.785 +03:30 [INF] Received HTTP response headers after 34.32ms - 200
+2022-11-06 12:28:51.793 +03:30 [INF] End processing HTTP request after 46.8602ms - 200
+2022-11-06 12:29:21.743 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:29:21.764 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:29:21.825 +03:30 [INF] Received HTTP response headers after 59.2163ms - 200
+2022-11-06 12:29:21.844 +03:30 [INF] End processing HTTP request after 100.4148ms - 200
+2022-11-06 12:29:22.316 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:29:22.3168016+03:30"
+2022-11-06 12:29:22.335 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:29:22.3353745+03:30". Total record count is 10
+2022-11-06 12:29:51.750 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:29:51.756 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667724381381"
+2022-11-06 12:29:51.797 +03:30 [INF] Received HTTP response headers after 38.75ms - 200
+2022-11-06 12:29:51.798 +03:30 [INF] End processing HTTP request after 48.173ms - 200
+2022-11-06 12:32:05.972 +03:30 [INF] Start processing HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 12:32:06.054 +03:30 [INF] Sending HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 12:32:06.168 +03:30 [INF] Received HTTP response headers after 109.4107ms - 204
+2022-11-06 12:32:06.173 +03:30 [INF] End processing HTTP request after 211.5872ms - 204
+2022-11-06 12:32:06.182 +03:30 [INF] Starting HeartBeat
+2022-11-06 12:32:06.627 +03:30 [INF] Microsoft Serializer Start working
+2022-11-06 12:32:06.712 +03:30 [INF] Parrot Translator try to create table in database with connection Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ. Schema name is dbo. Table name is ParrotTranslations
+2022-11-06 12:32:06.972 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:32:06.9720467+03:30"
+2022-11-06 12:32:07.069 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:32:07.0691061+03:30". Total record count is 10
+2022-11-06 12:32:07.080 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:32:07.0804783+03:30"
+2022-11-06 12:32:07.099 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:32:07.0994943+03:30". Total record count is 10
+2022-11-06 12:32:07.102 +03:30 [INF] Parrot Translator Start working with culture en-US
+2022-11-06 12:32:07.256 +03:30 [INF] Now listening on: https://localhost:7101
+2022-11-06 12:32:07.258 +03:30 [INF] Now listening on: http://localhost:7100
+2022-11-06 12:32:07.259 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-06 12:32:07.261 +03:30 [INF] Hosting environment: Development
+2022-11-06 12:32:07.262 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCms\src\3.Endpoints\NewCms.Endpoints.API\
+2022-11-06 12:32:08.459 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/index.html - -
+2022-11-06 12:32:08.863 +03:30 [INF] HTTP GET /swagger/index.html responded 200 in 286.9041 ms
+2022-11-06 12:32:08.874 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - -
+2022-11-06 12:32:08.898 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 21.7578ms
+2022-11-06 12:32:08.900 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/index.html - - - 200 - text/html;charset=utf-8 445.5363ms
+2022-11-06 12:32:08.983 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_vs/browserLink - -
+2022-11-06 12:32:09.062 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 78.4794ms
+2022-11-06 12:32:09.258 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - -
+2022-11-06 12:32:09.548 +03:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 280.8272 ms
+2022-11-06 12:32:09.553 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 294.6889ms
+2022-11-06 12:32:36.227 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:32:36.229 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:32:36.287 +03:30 [INF] Received HTTP response headers after 55.7073ms - 200
+2022-11-06 12:32:36.311 +03:30 [INF] End processing HTTP request after 83.9697ms - 200
+2022-11-06 12:33:06.202 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:33:06.210 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:33:06.252 +03:30 [INF] Received HTTP response headers after 40.1418ms - 200
+2022-11-06 12:33:06.261 +03:30 [INF] End processing HTTP request after 58.9877ms - 200
+2022-11-06 12:33:07.112 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:33:07.1127106+03:30"
+2022-11-06 12:33:07.155 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:33:07.1551085+03:30". Total record count is 10
+2022-11-06 12:33:36.196 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:33:36.198 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:33:36.246 +03:30 [INF] Received HTTP response headers after 46.119ms - 200
+2022-11-06 12:33:36.249 +03:30 [INF] End processing HTTP request after 52.5742ms - 200
+2022-11-06 12:34:06.204 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:34:06.207 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:34:06.247 +03:30 [INF] Received HTTP response headers after 38.5131ms - 200
+2022-11-06 12:34:06.249 +03:30 [INF] End processing HTTP request after 45.0778ms - 200
+2022-11-06 12:34:07.115 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:34:07.1151388+03:30"
+2022-11-06 12:34:07.131 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:34:07.1319239+03:30". Total record count is 10
+2022-11-06 12:34:36.195 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:34:36.198 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:34:36.243 +03:30 [INF] Received HTTP response headers after 42.2332ms - 200
+2022-11-06 12:34:36.245 +03:30 [INF] End processing HTTP request after 50.4651ms - 200
+2022-11-06 12:35:06.199 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:35:06.213 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:35:06.253 +03:30 [INF] Received HTTP response headers after 38.9338ms - 200
+2022-11-06 12:35:06.266 +03:30 [INF] End processing HTTP request after 67.857ms - 200
+2022-11-06 12:35:07.123 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:35:07.1231962+03:30"
+2022-11-06 12:35:07.147 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:35:07.1470519+03:30". Total record count is 10
+2022-11-06 12:35:36.200 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:35:36.208 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:35:36.237 +03:30 [INF] Received HTTP response headers after 28.4893ms - 200
+2022-11-06 12:35:36.239 +03:30 [INF] End processing HTTP request after 39.3048ms - 200
+2022-11-06 12:36:06.202 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:36:06.208 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:36:06.267 +03:30 [INF] Received HTTP response headers after 56.2337ms - 200
+2022-11-06 12:36:06.272 +03:30 [INF] End processing HTTP request after 69.8472ms - 200
+2022-11-06 12:36:07.116 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:36:07.1168957+03:30"
+2022-11-06 12:36:07.143 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:36:07.1432251+03:30". Total record count is 10
+2022-11-06 12:36:36.196 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:36:36.202 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:36:36.252 +03:30 [INF] Received HTTP response headers after 47.238ms - 200
+2022-11-06 12:36:36.256 +03:30 [INF] End processing HTTP request after 60.7117ms - 200
+2022-11-06 12:37:06.204 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:37:06.209 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:37:06.257 +03:30 [INF] Received HTTP response headers after 46.6688ms - 200
+2022-11-06 12:37:06.259 +03:30 [INF] End processing HTTP request after 54.9989ms - 200
+2022-11-06 12:37:07.101 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:37:07.1014886+03:30"
+2022-11-06 12:37:07.124 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:37:07.1242534+03:30". Total record count is 10
+2022-11-06 12:37:36.193 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:37:36.196 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:37:36.236 +03:30 [INF] Received HTTP response headers after 39.4416ms - 200
+2022-11-06 12:37:36.238 +03:30 [INF] End processing HTTP request after 44.2957ms - 200
+2022-11-06 12:38:06.189 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:38:06.191 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:38:06.230 +03:30 [INF] Received HTTP response headers after 38.5251ms - 200
+2022-11-06 12:38:06.231 +03:30 [INF] End processing HTTP request after 42.298ms - 200
+2022-11-06 12:38:07.101 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:38:07.1013199+03:30"
+2022-11-06 12:38:07.125 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:38:07.1258477+03:30". Total record count is 10
+2022-11-06 12:38:36.195 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:38:36.198 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:38:36.236 +03:30 [INF] Received HTTP response headers after 37.0489ms - 200
+2022-11-06 12:38:36.238 +03:30 [INF] End processing HTTP request after 42.762ms - 200
+2022-11-06 12:39:06.197 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:39:06.214 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:39:06.250 +03:30 [INF] Received HTTP response headers after 33.9174ms - 200
+2022-11-06 12:39:06.262 +03:30 [INF] End processing HTTP request after 64.8825ms - 200
+2022-11-06 12:39:07.112 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:39:07.1118739+03:30"
+2022-11-06 12:39:07.133 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:39:07.1336272+03:30". Total record count is 10
+2022-11-06 12:39:36.190 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:39:36.195 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:39:36.258 +03:30 [INF] Received HTTP response headers after 62.5268ms - 200
+2022-11-06 12:39:36.261 +03:30 [INF] End processing HTTP request after 70.4625ms - 200
+2022-11-06 12:40:06.200 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:40:06.203 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:40:06.240 +03:30 [INF] Received HTTP response headers after 35.6352ms - 200
+2022-11-06 12:40:06.243 +03:30 [INF] End processing HTTP request after 42.4966ms - 200
+2022-11-06 12:40:07.115 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:40:07.1149498+03:30"
+2022-11-06 12:40:07.135 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:40:07.1353083+03:30". Total record count is 10
+2022-11-06 12:40:36.190 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:40:36.193 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:40:36.229 +03:30 [INF] Received HTTP response headers after 34.5662ms - 200
+2022-11-06 12:40:36.230 +03:30 [INF] End processing HTTP request after 40.0121ms - 200
+2022-11-06 12:41:06.207 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:41:06.212 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667725325892"
+2022-11-06 12:41:06.296 +03:30 [INF] Received HTTP response headers after 80.5977ms - 200
+2022-11-06 12:41:06.298 +03:30 [INF] End processing HTTP request after 90.6372ms - 200
+2022-11-06 12:54:53.013 +03:30 [INF] Start processing HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 12:54:53.090 +03:30 [INF] Sending HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 12:54:53.215 +03:30 [INF] Received HTTP response headers after 114.9005ms - 204
+2022-11-06 12:54:53.222 +03:30 [INF] End processing HTTP request after 224.7807ms - 204
+2022-11-06 12:54:53.243 +03:30 [INF] Starting HeartBeat
+2022-11-06 12:54:53.907 +03:30 [INF] Microsoft Serializer Start working
+2022-11-06 12:54:54.639 +03:30 [INF] Parrot Translator try to create table in database with connection Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ. Schema name is dbo. Table name is ParrotTranslations
+2022-11-06 12:54:55.469 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:54:55.4695231+03:30"
+2022-11-06 12:54:55.666 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:54:55.6661018+03:30". Total record count is 10
+2022-11-06 12:54:55.679 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:54:55.6789473+03:30"
+2022-11-06 12:54:55.763 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:54:55.7633369+03:30". Total record count is 10
+2022-11-06 12:54:55.783 +03:30 [INF] Parrot Translator Start working with culture en-US
+2022-11-06 12:54:56.091 +03:30 [INF] Now listening on: https://localhost:7101
+2022-11-06 12:54:56.095 +03:30 [INF] Now listening on: http://localhost:7100
+2022-11-06 12:54:56.098 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-06 12:54:56.100 +03:30 [INF] Hosting environment: Development
+2022-11-06 12:54:56.101 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCms\src\3.Endpoints\NewCms.Endpoints.API\
+2022-11-06 12:54:57.343 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/index.html - -
+2022-11-06 12:54:57.965 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - -
+2022-11-06 12:54:57.963 +03:30 [INF] HTTP GET /swagger/index.html responded 200 in 432.2315 ms
+2022-11-06 12:54:57.988 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 21.4719ms
+2022-11-06 12:54:58.029 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/index.html - - - 200 - text/html;charset=utf-8 690.6500ms
+2022-11-06 12:54:58.143 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_vs/browserLink - -
+2022-11-06 12:54:58.276 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 132.7837ms
+2022-11-06 12:54:58.497 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - -
+2022-11-06 12:54:58.958 +03:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 453.8797 ms
+2022-11-06 12:54:58.982 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 484.3524ms
+2022-11-06 12:55:23.328 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:55:23.331 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:55:23.393 +03:30 [INF] Received HTTP response headers after 59.3516ms - 200
+2022-11-06 12:55:23.396 +03:30 [INF] End processing HTTP request after 68.687ms - 200
+2022-11-06 12:55:53.245 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:55:53.249 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:55:53.299 +03:30 [INF] Received HTTP response headers after 48.2642ms - 200
+2022-11-06 12:55:53.301 +03:30 [INF] End processing HTTP request after 56.1728ms - 200
+2022-11-06 12:55:55.790 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:55:55.7905446+03:30"
+2022-11-06 12:55:55.805 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:55:55.8050004+03:30". Total record count is 10
+2022-11-06 12:56:23.245 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:56:23.248 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:56:23.282 +03:30 [INF] Received HTTP response headers after 32.8238ms - 200
+2022-11-06 12:56:23.286 +03:30 [INF] End processing HTTP request after 41.2045ms - 200
+2022-11-06 12:56:53.252 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:56:53.256 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:56:53.299 +03:30 [INF] Received HTTP response headers after 42.3326ms - 200
+2022-11-06 12:56:53.301 +03:30 [INF] End processing HTTP request after 49.0281ms - 200
+2022-11-06 12:56:55.811 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:56:55.8117481+03:30"
+2022-11-06 12:56:55.850 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:56:55.8504246+03:30". Total record count is 10
+2022-11-06 12:57:23.265 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:57:23.269 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:57:23.315 +03:30 [INF] Received HTTP response headers after 43.733ms - 200
+2022-11-06 12:57:23.317 +03:30 [INF] End processing HTTP request after 51.6421ms - 200
+2022-11-06 12:57:53.246 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:57:53.252 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:57:53.290 +03:30 [INF] Received HTTP response headers after 36.1757ms - 200
+2022-11-06 12:57:53.291 +03:30 [INF] End processing HTTP request after 45.899ms - 200
+2022-11-06 12:57:55.788 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:57:55.7888922+03:30"
+2022-11-06 12:57:55.817 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:57:55.8173405+03:30". Total record count is 10
+2022-11-06 12:58:23.259 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:58:23.261 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:58:23.298 +03:30 [INF] Received HTTP response headers after 36.0996ms - 200
+2022-11-06 12:58:23.303 +03:30 [INF] End processing HTTP request after 43.5414ms - 200
+2022-11-06 12:58:53.260 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:58:53.269 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:58:53.306 +03:30 [INF] Received HTTP response headers after 35.6623ms - 200
+2022-11-06 12:58:53.308 +03:30 [INF] End processing HTTP request after 48.8623ms - 200
+2022-11-06 12:58:55.786 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:58:55.7865435+03:30"
+2022-11-06 12:58:55.808 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:58:55.8083365+03:30". Total record count is 10
+2022-11-06 12:59:23.247 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:59:23.249 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:59:23.293 +03:30 [INF] Received HTTP response headers after 42.0836ms - 200
+2022-11-06 12:59:23.294 +03:30 [INF] End processing HTTP request after 47.4435ms - 200
+2022-11-06 12:59:53.249 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:59:53.251 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 12:59:53.289 +03:30 [INF] Received HTTP response headers after 33.0178ms - 200
+2022-11-06 12:59:53.291 +03:30 [INF] End processing HTTP request after 42.1046ms - 200
+2022-11-06 12:59:55.798 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T12:59:55.7986843+03:30"
+2022-11-06 12:59:55.820 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T12:59:55.8203603+03:30". Total record count is 10
+2022-11-06 13:00:23.256 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:00:23.260 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:00:23.311 +03:30 [INF] Received HTTP response headers after 49.556ms - 200
+2022-11-06 13:00:23.314 +03:30 [INF] End processing HTTP request after 58.1986ms - 200
+2022-11-06 13:00:38.250 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:7100/api/News/GetList - -
+2022-11-06 13:00:38.271 +03:30 [INF] Executing endpoint 'NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API)'
+2022-11-06 13:00:38.329 +03:30 [INF] Route matched with {action = "Get", controller = "News"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList) on controller NewCms.Endpoints.API.NewsAgg.NewsController (NewCms.Endpoints.API).
+2022-11-06 13:00:38.558 +03:30 [INF] Executing action method NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API) - Validation state: "Valid"
+2022-11-06 13:00:38.578 +03:30 [INF] There is not any validator for NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList
+2022-11-06 13:00:38.587 +03:30 [INF] InMemoryCache Adapter Start working
+2022-11-06 13:00:38.637 +03:30 [INF] AutoMapper Adapter Start working
+2022-11-06 13:00:40.181 +03:30 [INF] Entity Framework Core 6.0.10 initialized 'NewCmsQueryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking 
+2022-11-06 13:00:40.830 +03:30 [INF] Executed DbCommand (59ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [n].[Description], [n].[CreatedDateTime] AS [InsertDate], [n].[Title], [n].[Id]
+FROM [News] AS [n]
+ORDER BY [n].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-11-06 13:00:40.860 +03:30 [INF] Processing the NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList command tooks 2274 Millisecconds
+2022-11-06 13:00:40.868 +03:30 [INF] Executed action method NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2297.7006ms.
+2022-11-06 13:00:40.875 +03:30 [INF] /api/News/GetList GET code took 2447.
+2022-11-06 13:00:40.890 +03:30 [INF] Executing OkObjectResult, writing value of type 'Zamin.Core.Contracts.Data.Queries.PagedData`1[[NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsListResult, NewCms.Core.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-06 13:00:40.915 +03:30 [INF] Executed action NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API) in 2576.7376ms
+2022-11-06 13:00:40.917 +03:30 [INF] Executed endpoint 'NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API)'
+2022-11-06 13:00:40.919 +03:30 [INF] HTTP GET /api/News/GetList responded 200 in 2659.4008 ms
+2022-11-06 13:00:40.940 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:7100/api/News/GetList - - - 200 - application/json;+charset=utf-8 2690.1247ms
+2022-11-06 13:00:53.258 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:00:53.263 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:00:53.315 +03:30 [INF] Received HTTP response headers after 50.5508ms - 200
+2022-11-06 13:00:53.319 +03:30 [INF] End processing HTTP request after 60.4652ms - 200
+2022-11-06 13:00:55.791 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T13:00:55.7909760+03:30"
+2022-11-06 13:00:55.807 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T13:00:55.8074956+03:30". Total record count is 10
+2022-11-06 13:01:23.259 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:01:23.263 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:01:23.311 +03:30 [INF] Received HTTP response headers after 44.4493ms - 200
+2022-11-06 13:01:23.313 +03:30 [INF] End processing HTTP request after 54.3033ms - 200
+2022-11-06 13:01:53.264 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:01:53.269 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:01:53.321 +03:30 [INF] Received HTTP response headers after 50.1849ms - 200
+2022-11-06 13:01:53.327 +03:30 [INF] End processing HTTP request after 62.298ms - 200
+2022-11-06 13:01:55.788 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T13:01:55.7888944+03:30"
+2022-11-06 13:01:55.819 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T13:01:55.8189909+03:30". Total record count is 10
+2022-11-06 13:02:23.246 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:02:23.252 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:02:23.287 +03:30 [INF] Received HTTP response headers after 33.5353ms - 200
+2022-11-06 13:02:23.288 +03:30 [INF] End processing HTTP request after 42.4221ms - 200
+2022-11-06 13:02:53.255 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:02:53.259 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:02:53.327 +03:30 [INF] Received HTTP response headers after 65.9989ms - 200
+2022-11-06 13:02:53.337 +03:30 [INF] End processing HTTP request after 82.0861ms - 200
+2022-11-06 13:02:55.790 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T13:02:55.7902228+03:30"
+2022-11-06 13:02:55.805 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T13:02:55.8057873+03:30". Total record count is 10
+2022-11-06 13:03:23.252 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:03:23.255 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667726692920"
+2022-11-06 13:03:23.274 +03:30 [INF] Received HTTP response headers after 18.216ms - 200
+2022-11-06 13:03:23.275 +03:30 [INF] End processing HTTP request after 23.1028ms - 200
+2022-11-06 13:21:18.725 +03:30 [INF] Start processing HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 13:21:18.783 +03:30 [INF] Sending HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 13:21:18.906 +03:30 [INF] Received HTTP response headers after 117.4288ms - 204
+2022-11-06 13:21:18.910 +03:30 [INF] End processing HTTP request after 197.0883ms - 204
+2022-11-06 13:21:18.919 +03:30 [INF] Starting HeartBeat
+2022-11-06 13:21:19.569 +03:30 [INF] Microsoft Serializer Start working
+2022-11-06 13:21:19.624 +03:30 [INF] Parrot Translator try to create table in database with connection Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ. Schema name is dbo. Table name is ParrotTranslations
+2022-11-06 13:21:19.832 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T13:21:19.8328056+03:30"
+2022-11-06 13:21:19.912 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T13:21:19.9125261+03:30". Total record count is 10
+2022-11-06 13:21:19.920 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T13:21:19.9200255+03:30"
+2022-11-06 13:21:19.937 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T13:21:19.9370402+03:30". Total record count is 10
+2022-11-06 13:21:19.938 +03:30 [INF] Parrot Translator Start working with culture en-US
+2022-11-06 13:21:20.020 +03:30 [INF] Now listening on: https://localhost:7101
+2022-11-06 13:21:20.021 +03:30 [INF] Now listening on: http://localhost:7100
+2022-11-06 13:21:20.023 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-06 13:21:20.024 +03:30 [INF] Hosting environment: Development
+2022-11-06 13:21:20.026 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCms\src\3.Endpoints\NewCms.Endpoints.API\
+2022-11-06 13:21:20.973 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/index.html - -
+2022-11-06 13:21:21.293 +03:30 [INF] HTTP GET /swagger/index.html responded 200 in 215.2392 ms
+2022-11-06 13:21:21.302 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - -
+2022-11-06 13:21:21.317 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 13.7483ms
+2022-11-06 13:21:21.319 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/index.html - - - 200 - text/html;charset=utf-8 353.1100ms
+2022-11-06 13:21:21.378 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_vs/browserLink - -
+2022-11-06 13:21:21.508 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 129.8581ms
+2022-11-06 13:21:21.592 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - -
+2022-11-06 13:21:21.766 +03:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 170.0086 ms
+2022-11-06 13:21:21.772 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 179.4744ms
+2022-11-06 13:21:48.950 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728278645"
+2022-11-06 13:21:48.951 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728278645"
+2022-11-06 13:21:48.981 +03:30 [INF] Received HTTP response headers after 28.5977ms - 200
+2022-11-06 13:21:48.982 +03:30 [INF] End processing HTTP request after 32.2746ms - 200
+2022-11-06 13:22:18.930 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728278645"
+2022-11-06 13:22:18.932 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728278645"
+2022-11-06 13:22:18.953 +03:30 [INF] Received HTTP response headers after 19.7078ms - 200
+2022-11-06 13:22:18.954 +03:30 [INF] End processing HTTP request after 23.4759ms - 200
+2022-11-06 13:22:19.942 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T13:22:19.9420947+03:30"
+2022-11-06 13:22:19.955 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T13:22:19.9556899+03:30". Total record count is 10
+2022-11-06 13:22:48.927 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728278645"
+2022-11-06 13:22:48.928 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728278645"
+2022-11-06 13:22:48.948 +03:30 [INF] Received HTTP response headers after 19.1947ms - 200
+2022-11-06 13:22:48.949 +03:30 [INF] End processing HTTP request after 22.3414ms - 200
+2022-11-06 13:23:18.933 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728278645"
+2022-11-06 13:23:18.936 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728278645"
+2022-11-06 13:23:18.957 +03:30 [INF] Received HTTP response headers after 19.305ms - 200
+2022-11-06 13:23:18.959 +03:30 [INF] End processing HTTP request after 25.461ms - 200
+2022-11-06 13:23:19.951 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T13:23:19.9513533+03:30"
+2022-11-06 13:23:19.961 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T13:23:19.9617750+03:30". Total record count is 10
+2022-11-06 13:31:36.420 +03:30 [INF] Start processing HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 13:31:36.456 +03:30 [INF] Sending HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-06 13:31:36.512 +03:30 [INF] Received HTTP response headers after 51.1943ms - 204
+2022-11-06 13:31:36.514 +03:30 [INF] End processing HTTP request after 102.8065ms - 204
+2022-11-06 13:31:36.520 +03:30 [INF] Starting HeartBeat
+2022-11-06 13:31:36.708 +03:30 [INF] Microsoft Serializer Start working
+2022-11-06 13:31:36.736 +03:30 [INF] Parrot Translator try to create table in database with connection Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ. Schema name is dbo. Table name is ParrotTranslations
+2022-11-06 13:31:36.879 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T13:31:36.8790109+03:30"
+2022-11-06 13:31:36.933 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T13:31:36.9330663+03:30". Total record count is 10
+2022-11-06 13:31:36.937 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T13:31:36.9376834+03:30"
+2022-11-06 13:31:36.948 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T13:31:36.9482152+03:30". Total record count is 10
+2022-11-06 13:31:36.949 +03:30 [INF] Parrot Translator Start working with culture en-US
+2022-11-06 13:31:37.012 +03:30 [INF] Now listening on: https://localhost:7101
+2022-11-06 13:31:37.014 +03:30 [INF] Now listening on: http://localhost:7100
+2022-11-06 13:31:37.016 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-06 13:31:37.016 +03:30 [INF] Hosting environment: Development
+2022-11-06 13:31:37.018 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCms\src\3.Endpoints\NewCms.Endpoints.API\
+2022-11-06 13:31:37.831 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/index.html - -
+2022-11-06 13:31:38.068 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - -
+2022-11-06 13:31:38.069 +03:30 [INF] HTTP GET /swagger/index.html responded 200 in 173.5867 ms
+2022-11-06 13:31:38.077 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - - - 200 12010 application/javascript;+charset=utf-8 8.5369ms
+2022-11-06 13:31:38.097 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/index.html - - - 200 - text/html;charset=utf-8 270.1724ms
+2022-11-06 13:31:38.126 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_vs/browserLink - -
+2022-11-06 13:31:38.147 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 21.9182ms
+2022-11-06 13:31:38.230 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - -
+2022-11-06 13:31:38.340 +03:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 107.2944 ms
+2022-11-06 13:31:38.343 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 112.9858ms
+2022-11-06 13:32:06.563 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728896364"
+2022-11-06 13:32:06.565 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728896364"
+2022-11-06 13:32:06.592 +03:30 [INF] Received HTTP response headers after 25.5999ms - 200
+2022-11-06 13:32:06.594 +03:30 [INF] End processing HTTP request after 30.3632ms - 200
+2022-11-06 13:32:11.358 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:7100/api/News/GetList - -
+2022-11-06 13:32:11.362 +03:30 [INF] Executing endpoint 'NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API)'
+2022-11-06 13:32:11.382 +03:30 [INF] Route matched with {action = "Get", controller = "News"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList) on controller NewCms.Endpoints.API.NewsAgg.NewsController (NewCms.Endpoints.API).
+2022-11-06 13:32:11.459 +03:30 [INF] Executing action method NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API) - Validation state: "Valid"
+2022-11-06 13:32:11.467 +03:30 [INF] There is not any validator for NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList
+2022-11-06 13:32:11.471 +03:30 [INF] InMemoryCache Adapter Start working
+2022-11-06 13:32:11.495 +03:30 [INF] AutoMapper Adapter Start working
+2022-11-06 13:32:12.342 +03:30 [INF] Entity Framework Core 6.0.10 initialized 'NewCmsQueryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking 
+2022-11-06 13:32:12.817 +03:30 [INF] Executed DbCommand (132ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [n].[Description], [n].[CreatedDateTime] AS [InsertDate], [n].[Title], [n].[Id]
+FROM [News] AS [n]
+ORDER BY [n].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-11-06 13:32:12.840 +03:30 [INF] Processing the NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList command tooks 1370 Millisecconds
+2022-11-06 13:32:12.846 +03:30 [INF] Executed action method NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1380.9654ms.
+2022-11-06 13:32:12.849 +03:30 [INF] /api/News/GetList GET code took 1433.
+2022-11-06 13:32:12.853 +03:30 [INF] Executing OkObjectResult, writing value of type 'Zamin.Core.Contracts.Data.Queries.PagedData`1[[NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsListResult, NewCms.Core.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-06 13:32:12.872 +03:30 [INF] Executed action NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API) in 1482.8088ms
+2022-11-06 13:32:12.876 +03:30 [INF] Executed endpoint 'NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API)'
+2022-11-06 13:32:12.882 +03:30 [INF] HTTP GET /api/News/GetList responded 200 in 1521.2394 ms
+2022-11-06 13:32:12.892 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:7100/api/News/GetList - - - 200 - application/json;+charset=utf-8 1534.0114ms
+2022-11-06 13:32:36.523 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728896364"
+2022-11-06 13:32:36.525 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728896364"
+2022-11-06 13:32:36.545 +03:30 [INF] Received HTTP response headers after 18.9947ms - 200
+2022-11-06 13:32:36.545 +03:30 [INF] End processing HTTP request after 22.317ms - 200
+2022-11-06 13:32:36.971 +03:30 [INF] Parrot Translator load localization recored at "2022-11-06T13:32:36.9710819+03:30"
+2022-11-06 13:32:36.982 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-06T13:32:36.9820837+03:30". Total record count is 10
+2022-11-06 13:33:06.530 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728896364"
+2022-11-06 13:33:06.531 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1667728896364"
+2022-11-06 13:33:06.554 +03:30 [INF] Received HTTP response headers after 21.1977ms - 200
+2022-11-06 13:33:06.555 +03:30 [INF] End processing HTTP request after 24.7112ms - 200

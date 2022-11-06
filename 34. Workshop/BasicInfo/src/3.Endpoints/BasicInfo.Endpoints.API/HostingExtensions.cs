@@ -45,7 +45,7 @@ public static class HostingExtensions
         builder.Services.AddZaminApiCore("Zamin", "BasicInfo");
 
         builder.Services.AddEndpointsApiExplorer();
-        builder.Services.AddHostedService<EventPublisher>();
+        //builder.Services.AddHostedService<EventPublisher>();
         builder.Services.AddSwaggerGen();
         builder.Services.AddHealthChecks()
             .AddDbContextCheck<BasicInfoQueryDbContext>();
@@ -55,7 +55,6 @@ public static class HostingExtensions
     {
         app.UseZaminApiExceptionHandler();
         app.UseSerilogRequestLogging();
-
         if (app.Environment.IsDevelopment())
         {
             app.UseSwagger();

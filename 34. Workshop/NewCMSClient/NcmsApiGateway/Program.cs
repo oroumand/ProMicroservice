@@ -1,20 +1,57 @@
+using BasicInfo.Endpoints.API.Framework;
 using NcmsApiGateway.Extentsions;
+using Serilog;
+using Serilog.Sinks.Elasticsearch;
+using Serilog.Sinks.MSSqlServer;
 using Steeltoe.Discovery.Client;
 
-var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddDiscoveryClient();
-builder.Services.AddReverseProxy()
-    .LoadFromEureka(builder.Services);
-builder.Services.AddHealthChecks();
-//.LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
-var app = builder.Build();
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .CreateBootstrapLogger();
+Log.Information("Starting up");
 
-app.MapReverseProxy();
-app.UseRouting();
-
-app.UseEndpoints(c =>
+try
 {
-    c.MapHealthChecks("/health/live");
-});
+    var builder = WebApplication.CreateBuilder(args);
+    builder.Host.UseSerilog((ctx, lc) => lc
+ .WriteTo.Console(outputTemplate: "[{Timestamp:HH:mm:ss} {Level}] {SourceContext}{NewLine}{Message:lj}{NewLine}{Exception}{NewLine}")
+  .WriteTo.File("log.txt", rollingInterval: RollingInterval.Day)
+    .WriteTo.MSSqlServer(
+        connectionString: "Server=.;Database=LogDb;User Id=sa; Password=1qaz!QAZ;",
+        sinkOptions: new MSSqlServerSinkOptions { TableName = "LogEvents", AutoCreateSqlTable = true })
+        .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri("http://localhost:9200"))
+        {
+            AutoRegisterTemplate = true,
+            AutoRegisterTemplateVersion = AutoRegisterTemplateVersion.ESv6,
+            IndexFormat = "nikamoozcms-apigateway-index-{0:yyyy.MM}",
+            MinimumLogEventLevel = Serilog.Events.LogEventLevel.Debug,
+        })
+        .Enrich.With<ActivityEnricher>()
+    .Enrich.FromLogContext()
+ .ReadFrom.Configuration(ctx.Configuration));
+    builder.Services.AddDiscoveryClient();
+    builder.Services.AddReverseProxy()
+        .LoadFromEureka(builder.Services);
+    builder.Services.AddHealthChecks();
+    //.LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
+    var app = builder.Build();
+    app.UseSerilogRequestLogging();
+    app.MapReverseProxy();
+    app.UseRouting();
 
-app.Run();
+    app.UseEndpoints(c =>
+    {
+        c.MapHealthChecks("/health/live");
+    });
+
+    app.Run();
+}
+catch (Exception ex)
+{
+    Log.Fatal(ex, "Unhandled exception");
+}
+finally
+{
+    Log.Information("Shut down complete");
+    Log.CloseAndFlush();
+}

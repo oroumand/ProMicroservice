@@ -8,13 +8,16 @@ namespace NewCMSClient.Controllers;
 public class NewsController : Controller
 {
     private readonly IHttpClientFactory _httpClientFactory;
+    private readonly ILogger<NewsController> _logger;
 
-    public NewsController(IHttpClientFactory httpClientFactory)
+    public NewsController(IHttpClientFactory httpClientFactory,ILogger<NewsController> logger)
     {
         _httpClientFactory = httpClientFactory;
+        _logger = logger;
     }
     public async Task<IActionResult> Index()
     {
+        _logger.LogInformation("Start Index Pocess at {IndexRequestDateTime}",DateTime.Now);
         var biClient = _httpClientFactory.CreateClient("news");
         string KeywordAsString = await biClient.GetStringAsync("api/News/GetList");
         NewsListModel newsList = JsonConvert.DeserializeObject<NewsListModel>(KeywordAsString);
