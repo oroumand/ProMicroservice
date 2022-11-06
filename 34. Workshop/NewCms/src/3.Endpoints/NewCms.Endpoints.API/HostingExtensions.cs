@@ -6,6 +6,7 @@ using NewCms.Infra.Data.Sql.Commands.Common;
 using NewCms.Infra.Data.Sql.Queries.Common;
 using Steeltoe.Discovery.Client;
 using BasicInfo.Endpoints.API.BackgroundTasks;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
 namespace NewCms.Endpoints.API;
 
@@ -14,6 +15,7 @@ public static class HostingExtensions
     public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
     {
         string cnn = "Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ";
+        string cnnQuery = "Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ";
         builder.Services.AddDiscoveryClient();
         builder.Services.AddZaminParrotTranslator(c =>
         {
@@ -24,10 +26,10 @@ public static class HostingExtensions
             c.ReloadDataIntervalInMinuts = 1;
         });
 
-        builder.Services.AddZaminWebUserInfoService(c=>
+        builder.Services.AddZaminWebUserInfoService(c =>
         {
             c.DefaultUserId = "1";
-        },true);
+        }, true);
 
         builder.Services.AddZaminAutoMapperProfiles(option =>
         {
@@ -39,14 +41,16 @@ public static class HostingExtensions
         builder.Services.AddZaminInMemoryCaching();
 
         builder.Services.AddDbContext<NewCmsCommandDbContext>(c => c.UseSqlServer(cnn).AddInterceptors(new SetPersianYeKeInterceptor(), new AddOutBoxEventItemInterceptor(), new AddAuditDataInterceptor()));
-        
-        builder.Services.AddDbContext<NewCmsQueryDbContext>(c => c.UseSqlServer(cnn));
+
+        builder.Services.AddDbContext<NewCmsQueryDbContext>(c => c.UseSqlServer(cnnQuery));
 
         builder.Services.AddZaminApiCore("Zamin", "MiniBlog");
 
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddHostedService<KeywordCreatedReceiver>();
         builder.Services.AddSwaggerGen();
+        builder.Services.AddHealthChecks()
+                        .AddDbContextCheck<NewCmsQueryDbContext>(); ;
         return builder.Build();
     }
     public static WebApplication ConfigurePipeline(this WebApplication app)
@@ -63,7 +67,11 @@ public static class HostingExtensions
         //app.UseHttpsRedirection();
 
         app.UseAuthorization();
-
+        app.MapHealthChecks("/helth/live", new HealthCheckOptions
+        {
+            Predicate = _ => false
+        });
+        app.MapHealthChecks("/helth/ready");
         app.MapControllers();
 
 

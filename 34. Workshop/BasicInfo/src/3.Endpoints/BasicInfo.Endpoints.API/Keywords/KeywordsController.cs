@@ -12,6 +12,12 @@ namespace BasicInfo.Endpoints.API.Blogs
     [Route("api/[controller]")]
     public class KeywordsController : BaseController
     {
+        private readonly ILogger<KeywordsController> _logger;
+
+        public KeywordsController(ILogger<KeywordsController> logger)
+        {
+            _logger = logger;
+        }
         [HttpPost("CreateKeyword")]
         public async Task<IActionResult> CreateKeyword(CreateKeyword createKeyword)
         {
@@ -41,6 +47,7 @@ namespace BasicInfo.Endpoints.API.Blogs
 
         public async Task<IActionResult> SearchTitleAndStatus(TitleAndStatus titleAndStatus)
         {
+            _logger.LogInformation("Salam alireza oroumand");
             return await Query< TitleAndStatus, PagedData<KeywordSearchResult>>(titleAndStatus);
         }
     }

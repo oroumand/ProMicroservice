@@ -6,6 +6,8 @@ using BasicInfo.Infra.Data.Sql.Commands.Common;
 using BasicInfo.Infra.Data.Sql.Queries.Common;
 using Steeltoe.Discovery.Client;
 using BasicInfo.Endpoints.API.BackgroundTasks;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 
 namespace BasicInfo.Endpoints.API;
 
@@ -14,6 +16,7 @@ public static class HostingExtensions
     public static WebApplication ConfigureServices(this WebApplicationBuilder builder)
     {
         string cnn = builder.Configuration.GetConnectionString("BasicInfoCommand_ConnectionString");
+        string cnnQuery = builder.Configuration.GetConnectionString("BasicInfoQuery_ConnectionString");
         builder.Services.AddDiscoveryClient();
         builder.Services.AddZaminParrotTranslator(c =>
         {
@@ -37,13 +40,15 @@ public static class HostingExtensions
 
         builder.Services.AddDbContext<BasicInfoCommandDbContext>(c => c.UseSqlServer(cnn).AddInterceptors(new SetPersianYeKeInterceptor(), new AddOutBoxEventItemInterceptor(), new AddAuditDataInterceptor()));
         
-        builder.Services.AddDbContext<BasicInfoQueryDbContext>(c => c.UseSqlServer(cnn));
+        builder.Services.AddDbContext<BasicInfoQueryDbContext>(c => c.UseSqlServer(cnnQuery));
 
         builder.Services.AddZaminApiCore("Zamin", "BasicInfo");
 
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddHostedService<EventPublisher>();
         builder.Services.AddSwaggerGen();
+        builder.Services.AddHealthChecks()
+            .AddDbContextCheck<BasicInfoQueryDbContext>();
         return builder.Build();
     }
     public static WebApplication ConfigurePipeline(this WebApplication app)
@@ -60,7 +65,11 @@ public static class HostingExtensions
         //app.UseHttpsRedirection();
 
         app.UseAuthorization();
-
+        app.MapHealthChecks("/helth/live", new HealthCheckOptions
+        {
+            Predicate = _=>false
+        }) ;
+        app.MapHealthChecks("/helth/ready");
         app.MapControllers();
 
 
