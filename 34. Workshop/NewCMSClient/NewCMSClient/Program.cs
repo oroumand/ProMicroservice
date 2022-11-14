@@ -1,7 +1,9 @@
 
+using Microsoft.Extensions.DependencyInjection;
 using Serilog;
 using Serilog.Sinks.Elasticsearch;
 using Serilog.Sinks.MSSqlServer;
+using System.IdentityModel.Tokens.Jwt;
 
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()
@@ -27,6 +29,30 @@ try
     .Enrich.FromLogContext()
    .ReadFrom.Configuration(ctx.Configuration));
 
+    JwtSecurityTokenHandler.DefaultMapInboundClaims = false;
+    builder.Services.AddAuthentication(c =>
+    {
+        c.DefaultScheme = "Cookies";
+        c.DefaultChallengeScheme = "oidc";
+    }).AddCookie("Cookies")
+    .AddOpenIdConnect("oidc", c =>
+    {
+        c.Authority = "https://localhost:5001";
+        c.ClientId = "newscmsclient";
+        c.ClientSecret = "newscmsclient";
+        c.ResponseType = "code";
+        c.Scope.Clear();
+        c.Scope.Add("openid");
+        c.Scope.Add("profile");
+        c.Scope.Add("basicinfo");
+        c.Scope.Add("newscms");
+        c.Scope.Add("offline_access");
+        c.GetClaimsFromUserInfoEndpoint = true;
+        c.SaveTokens = true;
+    })
+     
+        
+        ;
 
     builder.Services.AddHttpClient("bi", c =>
     {
@@ -35,6 +61,11 @@ try
     builder.Services.AddHttpClient("news", c =>
     {
         c.BaseAddress = new Uri("http://localhost:7300/news/");
+    });
+
+    builder.Services.AddHttpClient("oAtuh", c =>
+    {
+        c.BaseAddress = new Uri("https://localhost:5001");
     });
     // Add services to the container.
     builder.Services.AddControllersWithViews();
@@ -54,11 +85,13 @@ try
 
     app.UseRouting();
 
-    app.UseAuthorization();
     app.MapHealthChecks("/health/live");
+    app.UseAuthentication();
+    app.UseAuthorization();
+
     app.MapControllerRoute(
         name: "default",
-        pattern: "{controller=Home}/{action=Index}/{id?}");
+        pattern: "{controller=Home}/{action=Index}/{id?}").RequireAuthorization();
 
     app.Run();
 }

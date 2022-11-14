@@ -3,6 +3,10 @@ using NewCMSClient.Models.Keywords;
 using NewCMSClient.Models.NewsViewModels;
 using Newtonsoft.Json;
 using System.Text.Json.Serialization;
+using IdentityModel;
+using IdentityModel.Client;
+using Microsoft.AspNetCore.Authentication;
+using static System.Net.WebRequestMethods;
 
 namespace NewCMSClient.Controllers;
 public class NewsController : Controller
@@ -18,9 +22,24 @@ public class NewsController : Controller
     public async Task<IActionResult> Index()
     {
         _logger.LogInformation("Start Index Pocess at {IndexRequestDateTime}",DateTime.Now);
-        var biClient = _httpClientFactory.CreateClient("news");
-        string KeywordAsString = await biClient.GetStringAsync("api/News/GetList");
-        NewsListModel newsList = JsonConvert.DeserializeObject<NewsListModel>(KeywordAsString);
+        //var oAuthClient = _httpClientFactory.CreateClient("oAtuh");
+        //var discovery = await oAuthClient.GetDiscoveryDocumentAsync();
+        //var tokenResponse = await oAuthClient.RequestClientCredentialsTokenAsync(new ClientCredentialsTokenRequest
+        //{
+        //    Address = discovery.TokenEndpoint,
+        //    ClientId = "newscmsclient",
+        //    ClientSecret = "newscmsclient",
+        //    Scope = "basicinfo newscms"
+        //});
+
+        //string token = tokenResponse.AccessToken;
+        string token = await HttpContext.GetTokenAsync("access_token");
+        var newsClient = _httpClientFactory.CreateClient("news");
+        newsClient.DefaultRequestHeaders.Authorization = 
+            new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
+        //newsClient.SetBearerToken(token);
+        string NewsAsString = await newsClient.GetStringAsync("api/News/GetList");
+        NewsListModel newsList = JsonConvert.DeserializeObject<NewsListModel>(NewsAsString);
         return View(newsList);
     }
 

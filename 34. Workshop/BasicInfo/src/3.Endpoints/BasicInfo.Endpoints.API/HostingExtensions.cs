@@ -27,6 +27,25 @@ public static class HostingExtensions
             c.ReloadDataIntervalInMinuts = 1;
         });
 
+        builder.Services.AddAuthentication("Bearer").AddJwtBearer("Bearer", c =>
+        {
+            c.Authority = "https://localhost:5001/";
+            c.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+            {
+                ValidateAudience = false,
+            };
+        });
+
+
+        builder.Services.AddAuthorization(c =>
+        {
+            c.AddPolicy("BasicInfoPolicy", p =>
+            {
+                p.RequireAuthenticatedUser();
+                p.RequireClaim("scope", "basicinfo");
+            });
+        });
+
         builder.Services.AddZaminWebUserInfoService(true);
 
         builder.Services.AddZaminAutoMapperProfiles(option =>
@@ -39,7 +58,7 @@ public static class HostingExtensions
         builder.Services.AddZaminInMemoryCaching();
 
         builder.Services.AddDbContext<BasicInfoCommandDbContext>(c => c.UseSqlServer(cnn).AddInterceptors(new SetPersianYeKeInterceptor(), new AddOutBoxEventItemInterceptor(), new AddAuditDataInterceptor()));
-        
+
         builder.Services.AddDbContext<BasicInfoQueryDbContext>(c => c.UseSqlServer(cnnQuery));
 
         builder.Services.AddZaminApiCore("Zamin", "BasicInfo");
@@ -63,13 +82,14 @@ public static class HostingExtensions
 
         //app.UseHttpsRedirection();
 
-        app.UseAuthorization();
         app.MapHealthChecks("/helth/live", new HealthCheckOptions
         {
-            Predicate = _=>false
-        }) ;
+            Predicate = _ => false
+        });
         app.MapHealthChecks("/helth/ready");
-        app.MapControllers();
+        app.UseAuthentication();
+        app.UseAuthorization();
+        app.MapControllers().RequireAuthorization("BasicInfoPolicy");
 
 
         return app;

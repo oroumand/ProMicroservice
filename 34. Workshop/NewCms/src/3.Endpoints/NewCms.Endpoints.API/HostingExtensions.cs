@@ -26,6 +26,24 @@ public static class HostingExtensions
             c.ReloadDataIntervalInMinuts = 1;
         });
 
+        builder.Services.AddAuthentication("Bearer").AddJwtBearer("Bearer", c =>
+        {
+            c.Authority = "https://localhost:5001/";
+            c.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters
+            {
+                ValidateAudience = false,
+            };
+        });
+
+
+        builder.Services.AddAuthorization(c =>
+        {
+            c.AddPolicy("NewsCmsPolicy", p =>
+            {
+                //p.RequireAuthenticatedUser();
+                p.RequireClaim("scope", "newscms");
+            });
+        });
         builder.Services.AddZaminWebUserInfoService(c =>
         {
             c.DefaultUserId = "1";
@@ -33,7 +51,7 @@ public static class HostingExtensions
 
         builder.Services.AddZaminAutoMapperProfiles(option =>
         {
-            option.AssmblyNamesForLoadProfiles = "Miniblog";
+            option.AssmblyNamesForLoadProfiles = "NewCms";
         });
 
         builder.Services.AddZaminMicrosoftSerializer();
@@ -44,7 +62,7 @@ public static class HostingExtensions
 
         builder.Services.AddDbContext<NewCmsQueryDbContext>(c => c.UseSqlServer(cnnQuery));
 
-        builder.Services.AddZaminApiCore("Zamin", "MiniBlog");
+        builder.Services.AddZaminApiCore("Zamin", "NewCms");
 
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddHostedService<KeywordCreatedReceiver>();
@@ -55,6 +73,7 @@ public static class HostingExtensions
     }
     public static WebApplication ConfigurePipeline(this WebApplication app)
     {
+
         app.UseZaminApiExceptionHandler();
         app.UseSerilogRequestLogging();
         if (app.Environment.IsDevelopment())
@@ -65,14 +84,15 @@ public static class HostingExtensions
 
         //app.UseHttpsRedirection();
 
-        app.UseAuthorization();
+ 
         app.MapHealthChecks("/helth/live", new HealthCheckOptions
         {
             Predicate = _ => false
         });
         app.MapHealthChecks("/helth/ready");
-        app.MapControllers();
-
+        app.UseAuthentication();
+        app.UseAuthorization();
+        app.MapControllers().RequireAuthorization("NewsCmsPolicy");
 
         return app;
     }
