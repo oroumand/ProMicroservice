@@ -1,0 +1,119 @@
+2022-11-28 08:43:02.292 +03:30 [INF] Start processing HTTP request POST "http://localhost:8761/eureka/apps/BASICINFO"
+2022-11-28 08:43:02.333 +03:30 [INF] Sending HTTP request POST "http://localhost:8761/eureka/apps/BASICINFO"
+2022-11-28 08:43:05.087 +03:30 [INF] Received HTTP response headers after 2749.1112ms - 204
+2022-11-28 08:43:05.090 +03:30 [INF] End processing HTTP request after 2805.8643ms - 204
+2022-11-28 08:43:05.097 +03:30 [INF] Starting HeartBeat
+2022-11-28 08:43:05.117 +03:30 [INF] User profile is available. Using 'C:\Users\Alireza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-28 08:43:05.179 +03:30 [INF] Newton Soft Serializer Start working
+2022-11-28 08:43:05.296 +03:30 [INF] Parrot Translator try to create table in database with connection Server =.; Database=BasicInfoDb ;User Id =sa;Password=1qaz!QAZ; MultipleActiveResultSets=true. Schema name is dbo. Table name is ParrotTranslations
+2022-11-28 08:43:05.625 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:43:05.6254650+03:30"
+2022-11-28 08:43:05.731 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:43:05.7309796+03:30". Total record count is 6
+2022-11-28 08:43:05.732 +03:30 [INF] Parrot Translator Start working with culture en-US
+2022-11-28 08:43:05.798 +03:30 [INF] Now listening on: https://localhost:7201
+2022-11-28 08:43:05.800 +03:30 [INF] Now listening on: http://localhost:7200
+2022-11-28 08:43:05.801 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-28 08:43:05.803 +03:30 [INF] Hosting environment: Development
+2022-11-28 08:43:05.804 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\BasicInfo\src\3.Endpoints\BasicInfo.Endpoints.API\
+2022-11-28 08:43:06.556 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/swagger - -
+2022-11-28 08:43:06.653 +03:30 [INF] HTTP GET /swagger responded 301 in 26.1988 ms
+2022-11-28 08:43:06.674 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/swagger - - - 301 0 - 121.3178ms
+2022-11-28 08:43:06.694 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/swagger/index.html - -
+2022-11-28 08:43:06.850 +03:30 [INF] HTTP GET /swagger/index.html responded 200 in 152.8547 ms
+2022-11-28 08:43:06.864 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/swagger/index.html - - - 200 - text/html;charset=utf-8 170.4416ms
+2022-11-28 08:43:06.881 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/swagger/swagger-ui.css - -
+2022-11-28 08:43:06.881 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/swagger/swagger-ui-standalone-preset.js - -
+2022-11-28 08:43:06.881 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/_framework/aspnetcore-browser-refresh.js - -
+2022-11-28 08:43:06.881 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/swagger/swagger-ui-bundle.js - -
+2022-11-28 08:43:06.896 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/_framework/aspnetcore-browser-refresh.js - - - 200 12015 application/javascript;+charset=utf-8 14.7440ms
+2022-11-28 08:43:06.906 +03:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-11-28 08:43:06.912 +03:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 25.3209 ms
+2022-11-28 08:43:06.925 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/swagger/swagger-ui.css - - - 200 143943 text/css 44.4199ms
+2022-11-28 08:43:06.932 +03:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-11-28 08:43:06.941 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/_vs/browserLink - -
+2022-11-28 08:43:06.947 +03:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 57.4315 ms
+2022-11-28 08:43:06.965 +03:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-11-28 08:43:06.966 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 85.0018ms
+2022-11-28 08:43:06.975 +03:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 80.0732 ms
+2022-11-28 08:43:06.991 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/swagger/swagger-ui-bundle.js - - - 200 1095087 application/javascript 110.1806ms
+2022-11-28 08:43:07.033 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 92.6225ms
+2022-11-28 08:43:07.153 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/swagger/v1/swagger.json - -
+2022-11-28 08:43:07.178 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/swagger/favicon-32x32.png - -
+2022-11-28 08:43:07.180 +03:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-11-28 08:43:07.182 +03:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 2.0427 ms
+2022-11-28 08:43:07.184 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/swagger/favicon-32x32.png - - - 200 628 image/png 6.1138ms
+2022-11-28 08:43:07.289 +03:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 134.3072 ms
+2022-11-28 08:43:07.291 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 138.1478ms
+2022-11-28 08:43:35.125 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612382232"
+2022-11-28 08:43:35.126 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612382232"
+2022-11-28 08:43:35.162 +03:30 [INF] Received HTTP response headers after 35.3255ms - 200
+2022-11-28 08:43:35.164 +03:30 [INF] End processing HTTP request after 38.8247ms - 200
+2022-11-28 08:52:15.499 +03:30 [INF] Start processing HTTP request POST "http://localhost:8761/eureka/apps/BASICINFO"
+2022-11-28 08:52:15.553 +03:30 [INF] Sending HTTP request POST "http://localhost:8761/eureka/apps/BASICINFO"
+2022-11-28 08:52:15.959 +03:30 [INF] Received HTTP response headers after 401.1928ms - 204
+2022-11-28 08:52:15.964 +03:30 [INF] End processing HTTP request after 478.252ms - 204
+2022-11-28 08:52:15.973 +03:30 [INF] Starting HeartBeat
+2022-11-28 08:52:16.002 +03:30 [INF] User profile is available. Using 'C:\Users\Alireza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-28 08:52:16.179 +03:30 [INF] Newton Soft Serializer Start working
+2022-11-28 08:52:16.229 +03:30 [INF] Parrot Translator try to create table in database with connection Server =.; Database=BasicInfoDb ;User Id =sa;Password=1qaz!QAZ; MultipleActiveResultSets=true. Schema name is dbo. Table name is ParrotTranslations
+2022-11-28 08:52:16.556 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:52:16.5569038+03:30"
+2022-11-28 08:52:16.660 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:52:16.6606055+03:30". Total record count is 6
+2022-11-28 08:52:16.662 +03:30 [INF] Parrot Translator Start working with culture en-US
+2022-11-28 08:52:16.766 +03:30 [INF] Now listening on: https://localhost:7201
+2022-11-28 08:52:16.768 +03:30 [INF] Now listening on: http://localhost:7200
+2022-11-28 08:52:16.770 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-28 08:52:16.771 +03:30 [INF] Hosting environment: Development
+2022-11-28 08:52:16.777 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\BasicInfo\src\3.Endpoints\BasicInfo.Endpoints.API\
+2022-11-28 08:52:17.782 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/swagger/index.html - -
+2022-11-28 08:52:18.247 +03:30 [INF] HTTP GET /swagger/index.html responded 200 in 357.3865 ms
+2022-11-28 08:52:18.301 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/swagger/index.html - - - 200 - text/html;charset=utf-8 526.4029ms
+2022-11-28 08:52:18.387 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/_framework/aspnetcore-browser-refresh.js - -
+2022-11-28 08:52:18.401 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/_framework/aspnetcore-browser-refresh.js - - - 200 12015 application/javascript;+charset=utf-8 14.4649ms
+2022-11-28 08:52:18.468 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/_vs/browserLink - -
+2022-11-28 08:52:18.558 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 90.0887ms
+2022-11-28 08:52:18.795 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7201/swagger/v1/swagger.json - -
+2022-11-28 08:52:19.011 +03:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 207.5196 ms
+2022-11-28 08:52:19.015 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7201/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 219.6721ms
+2022-11-28 08:52:46.023 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:52:46.025 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:52:46.099 +03:30 [INF] Received HTTP response headers after 71.8987ms - 200
+2022-11-28 08:52:46.102 +03:30 [INF] End processing HTTP request after 79.0115ms - 200
+2022-11-28 08:53:15.990 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:53:15.993 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:53:16.028 +03:30 [INF] Received HTTP response headers after 34.6147ms - 200
+2022-11-28 08:53:16.030 +03:30 [INF] End processing HTTP request after 39.3929ms - 200
+2022-11-28 08:53:16.672 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:53:16.6728187+03:30"
+2022-11-28 08:53:16.716 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:53:16.7165638+03:30". Total record count is 6
+2022-11-28 08:53:45.984 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:53:46.007 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:53:46.045 +03:30 [INF] Received HTTP response headers after 37.6526ms - 200
+2022-11-28 08:53:46.047 +03:30 [INF] End processing HTTP request after 64.6682ms - 200
+2022-11-28 08:54:15.979 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:54:15.981 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:54:16.070 +03:30 [INF] Received HTTP response headers after 87.8054ms - 200
+2022-11-28 08:54:16.072 +03:30 [INF] End processing HTTP request after 92.6185ms - 200
+2022-11-28 08:54:16.662 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:54:16.6625855+03:30"
+2022-11-28 08:54:16.685 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:54:16.6854001+03:30". Total record count is 6
+2022-11-28 08:54:45.983 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:54:45.985 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:54:46.017 +03:30 [INF] Received HTTP response headers after 31.4627ms - 200
+2022-11-28 08:54:46.018 +03:30 [INF] End processing HTTP request after 35.3072ms - 200
+2022-11-28 08:55:15.980 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:55:15.985 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:55:16.029 +03:30 [INF] Received HTTP response headers after 42.7577ms - 200
+2022-11-28 08:55:16.031 +03:30 [INF] End processing HTTP request after 51.1307ms - 200
+2022-11-28 08:55:16.663 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:55:16.6633004+03:30"
+2022-11-28 08:55:16.689 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:55:16.6890999+03:30". Total record count is 6
+2022-11-28 08:55:45.992 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:55:45.995 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:55:46.041 +03:30 [INF] Received HTTP response headers after 44.2154ms - 200
+2022-11-28 08:55:46.042 +03:30 [INF] End processing HTTP request after 49.9791ms - 200
+2022-11-28 08:56:15.984 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:56:15.985 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:56:16.028 +03:30 [INF] Received HTTP response headers after 41.8656ms - 200
+2022-11-28 08:56:16.030 +03:30 [INF] End processing HTTP request after 46.483ms - 200
+2022-11-28 08:56:16.672 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:56:16.6726117+03:30"
+2022-11-28 08:56:16.690 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:56:16.6903869+03:30". Total record count is 6
+2022-11-28 08:56:45.990 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:56:45.993 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/BASICINFO/localhost:BasicInfo:7201?status=UP&lastDirtyTimestamp=1669612935410"
+2022-11-28 08:56:46.027 +03:30 [INF] Received HTTP response headers after 33.1347ms - 200
+2022-11-28 08:56:46.029 +03:30 [INF] End processing HTTP request after 38.4234ms - 200

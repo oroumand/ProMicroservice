@@ -1,0 +1,151 @@
+2022-11-28 08:43:16.223 +03:30 [INF] Start processing HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-28 08:43:16.266 +03:30 [INF] Sending HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-28 08:43:16.341 +03:30 [INF] Received HTTP response headers after 68.9276ms - 204
+2022-11-28 08:43:16.345 +03:30 [INF] End processing HTTP request after 131.7391ms - 204
+2022-11-28 08:43:16.354 +03:30 [INF] Starting HeartBeat
+2022-11-28 08:43:16.375 +03:30 [INF] User profile is available. Using 'C:\Users\Alireza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-28 08:43:16.653 +03:30 [INF] Microsoft Serializer Start working
+2022-11-28 08:43:16.788 +03:30 [INF] Parrot Translator try to create table in database with connection Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ. Schema name is dbo. Table name is ParrotTranslations
+2022-11-28 08:43:16.986 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:43:16.9867776+03:30"
+2022-11-28 08:43:17.087 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:43:17.0874674+03:30". Total record count is 10
+2022-11-28 08:43:17.092 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:43:17.0926276+03:30"
+2022-11-28 08:43:17.105 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:43:17.1056153+03:30". Total record count is 10
+2022-11-28 08:43:17.106 +03:30 [INF] Parrot Translator Start working with culture en-US
+2022-11-28 08:43:17.184 +03:30 [INF] Now listening on: https://localhost:7101
+2022-11-28 08:43:17.186 +03:30 [INF] Now listening on: http://localhost:7100
+2022-11-28 08:43:17.187 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-28 08:43:17.188 +03:30 [INF] Hosting environment: Development
+2022-11-28 08:43:17.189 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCms\src\3.Endpoints\NewCms.Endpoints.API\
+2022-11-28 08:43:17.921 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger - -
+2022-11-28 08:43:18.011 +03:30 [INF] HTTP GET /swagger responded 301 in 21.7844 ms
+2022-11-28 08:43:18.029 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger - - - 301 0 - 112.2168ms
+2022-11-28 08:43:18.046 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/index.html - -
+2022-11-28 08:43:18.198 +03:30 [INF] HTTP GET /swagger/index.html responded 200 in 149.6011 ms
+2022-11-28 08:43:18.218 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/index.html - - - 200 - text/html;charset=utf-8 172.2816ms
+2022-11-28 08:43:18.237 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/swagger-ui.css - -
+2022-11-28 08:43:18.238 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/swagger-ui-standalone-preset.js - -
+2022-11-28 08:43:18.238 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/swagger-ui-bundle.js - -
+2022-11-28 08:43:18.238 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - -
+2022-11-28 08:43:18.249 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - - - 200 12009 application/javascript;+charset=utf-8 11.1765ms
+2022-11-28 08:43:18.300 +03:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2022-11-28 08:43:18.300 +03:30 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2022-11-28 08:43:18.304 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_vs/browserLink - -
+2022-11-28 08:43:18.307 +03:30 [INF] HTTP GET /swagger/swagger-ui.css responded 200 in 66.2467 ms
+2022-11-28 08:43:18.305 +03:30 [INF] HTTP GET /swagger/swagger-ui-standalone-preset.js responded 200 in 64.2820 ms
+2022-11-28 08:43:18.312 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/swagger-ui.css - - - 200 143943 text/css 75.1827ms
+2022-11-28 08:43:18.315 +03:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2022-11-28 08:43:18.316 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/swagger-ui-standalone-preset.js - - - 200 339486 application/javascript 78.4062ms
+2022-11-28 08:43:18.320 +03:30 [INF] HTTP GET /swagger/swagger-ui-bundle.js responded 200 in 77.5149 ms
+2022-11-28 08:43:18.325 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/swagger-ui-bundle.js - - - 200 1096145 application/javascript 87.0609ms
+2022-11-28 08:43:18.379 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 75.0074ms
+2022-11-28 08:43:18.573 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - -
+2022-11-28 08:43:18.593 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/favicon-32x32.png - -
+2022-11-28 08:43:18.594 +03:30 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2022-11-28 08:43:18.596 +03:30 [INF] HTTP GET /swagger/favicon-32x32.png responded 200 in 1.7705 ms
+2022-11-28 08:43:18.598 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/favicon-32x32.png - - - 200 628 image/png 5.1416ms
+2022-11-28 08:43:18.738 +03:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 163.2497 ms
+2022-11-28 08:43:18.742 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 168.5907ms
+2022-11-28 08:43:40.568 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:7100/api/News/GetList - -
+2022-11-28 08:43:40.953 +03:30 [INF] Executing endpoint 'NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API)'
+2022-11-28 08:43:40.972 +03:30 [INF] Route matched with {action = "Get", controller = "News"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList) on controller NewCms.Endpoints.API.NewsAgg.NewsController (NewCms.Endpoints.API).
+2022-11-28 08:43:41.050 +03:30 [INF] Executing action method NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API) - Validation state: "Valid"
+2022-11-28 08:43:41.057 +03:30 [INF] There is not any validator for NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList
+2022-11-28 08:43:41.061 +03:30 [INF] InMemoryCache Adapter Start working
+2022-11-28 08:43:41.089 +03:30 [INF] AutoMapper Adapter Start working
+2022-11-28 08:43:41.899 +03:30 [INF] Entity Framework Core 6.0.10 initialized 'NewCmsQueryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking 
+2022-11-28 08:43:42.327 +03:30 [INF] Executed DbCommand (64ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [n].[Description], [n].[CreatedDateTime] AS [InsertDate], [n].[Title], [n].[Id]
+FROM [News] AS [n]
+ORDER BY [n].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-11-28 08:43:42.355 +03:30 [INF] Processing the NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList command tooks 1294 Millisecconds
+2022-11-28 08:43:42.360 +03:30 [INF] Executed action method NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1304.9406ms.
+2022-11-28 08:43:42.363 +03:30 [INF] /api/News/GetList GET code took 1357.
+2022-11-28 08:43:42.367 +03:30 [INF] Executing OkObjectResult, writing value of type 'Zamin.Core.Contracts.Data.Queries.PagedData`1[[NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsListResult, NewCms.Core.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-28 08:43:42.378 +03:30 [INF] Executed action NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API) in 1401.2197ms
+2022-11-28 08:43:42.379 +03:30 [INF] Executed endpoint 'NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API)'
+2022-11-28 08:43:42.380 +03:30 [INF] HTTP GET /api/News/GetList responded 200 in 1808.9407 ms
+2022-11-28 08:43:42.386 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:7100/api/News/GetList - - - 200 - application/json;+charset=utf-8 1818.0487ms
+2022-11-28 08:43:46.377 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612396156"
+2022-11-28 08:43:46.378 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612396156"
+2022-11-28 08:43:46.403 +03:30 [INF] Received HTTP response headers after 23.9972ms - 200
+2022-11-28 08:43:46.404 +03:30 [INF] End processing HTTP request after 27.0402ms - 200
+2022-11-28 08:52:29.416 +03:30 [INF] Start processing HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-28 08:52:29.471 +03:30 [INF] Sending HTTP request POST "http://localhost:8761/eureka/apps/NEWSCMS"
+2022-11-28 08:52:29.580 +03:30 [INF] Received HTTP response headers after 103.0075ms - 204
+2022-11-28 08:52:29.584 +03:30 [INF] End processing HTTP request after 177.1418ms - 204
+2022-11-28 08:52:29.592 +03:30 [INF] Starting HeartBeat
+2022-11-28 08:52:29.625 +03:30 [INF] User profile is available. Using 'C:\Users\Alireza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-28 08:52:30.292 +03:30 [INF] Microsoft Serializer Start working
+2022-11-28 08:52:30.388 +03:30 [INF] Parrot Translator try to create table in database with connection Server=.; Initial Catalog=NewsDb; User Id=sa; Password=1qaz!QAZ. Schema name is dbo. Table name is ParrotTranslations
+2022-11-28 08:52:30.742 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:52:30.7424221+03:30"
+2022-11-28 08:52:30.871 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:52:30.8713654+03:30". Total record count is 10
+2022-11-28 08:52:30.881 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:52:30.8812460+03:30"
+2022-11-28 08:52:30.913 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:52:30.9139082+03:30". Total record count is 10
+2022-11-28 08:52:30.915 +03:30 [INF] Parrot Translator Start working with culture en-US
+2022-11-28 08:52:31.097 +03:30 [INF] Now listening on: https://localhost:7101
+2022-11-28 08:52:31.099 +03:30 [INF] Now listening on: http://localhost:7100
+2022-11-28 08:52:31.101 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-28 08:52:31.102 +03:30 [INF] Hosting environment: Development
+2022-11-28 08:52:31.105 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCms\src\3.Endpoints\NewCms.Endpoints.API\
+2022-11-28 08:52:32.285 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/index.html - -
+2022-11-28 08:52:32.663 +03:30 [INF] HTTP GET /swagger/index.html responded 200 in 248.6686 ms
+2022-11-28 08:52:32.723 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/index.html - - - 200 - text/html;charset=utf-8 443.7918ms
+2022-11-28 08:52:32.872 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - -
+2022-11-28 08:52:32.872 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/_vs/browserLink - -
+2022-11-28 08:52:32.912 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_framework/aspnetcore-browser-refresh.js - - - 200 12009 application/javascript;+charset=utf-8 40.2072ms
+2022-11-28 08:52:32.976 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 104.8583ms
+2022-11-28 08:52:33.323 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - -
+2022-11-28 08:52:33.585 +03:30 [INF] HTTP GET /swagger/v1/swagger.json responded 200 in 258.9778 ms
+2022-11-28 08:52:33.593 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7101/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 270.2747ms
+2022-11-28 08:52:52.817 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:7100/api/News/GetList - -
+2022-11-28 08:52:53.514 +03:30 [INF] Executing endpoint 'NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API)'
+2022-11-28 08:52:53.570 +03:30 [INF] Route matched with {action = "Get", controller = "News"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get(NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList) on controller NewCms.Endpoints.API.NewsAgg.NewsController (NewCms.Endpoints.API).
+2022-11-28 08:52:53.714 +03:30 [INF] Executing action method NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API) - Validation state: "Valid"
+2022-11-28 08:52:53.726 +03:30 [INF] There is not any validator for NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList
+2022-11-28 08:52:53.737 +03:30 [INF] InMemoryCache Adapter Start working
+2022-11-28 08:52:53.788 +03:30 [INF] AutoMapper Adapter Start working
+2022-11-28 08:52:55.117 +03:30 [INF] Entity Framework Core 6.0.10 initialized 'NewCmsQueryDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.4' with options: NoTracking 
+2022-11-28 08:52:55.704 +03:30 [INF] Executed DbCommand (87ms) [Parameters=[@__p_0='?' (DbType = Int32), @__p_1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [n].[Description], [n].[CreatedDateTime] AS [InsertDate], [n].[Title], [n].[Id]
+FROM [News] AS [n]
+ORDER BY [n].[Id] DESC
+OFFSET @__p_0 ROWS FETCH NEXT @__p_1 ROWS ONLY
+2022-11-28 08:52:55.743 +03:30 [INF] Processing the NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsList command tooks 2007 Millisecconds
+2022-11-28 08:52:55.750 +03:30 [INF] Executed action method NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 2029.4738ms.
+2022-11-28 08:52:55.755 +03:30 [INF] /api/News/GetList GET code took 2115.
+2022-11-28 08:52:55.759 +03:30 [INF] Executing OkObjectResult, writing value of type 'Zamin.Core.Contracts.Data.Queries.PagedData`1[[NewCms.Core.Contracts.NewsAgg.Queries.NewsLists.NewsListResult, NewCms.Core.Contracts, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2022-11-28 08:52:55.780 +03:30 [INF] Executed action NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API) in 2200.4434ms
+2022-11-28 08:52:55.781 +03:30 [INF] Executed endpoint 'NewCms.Endpoints.API.NewsAgg.NewsController.Get (NewCms.Endpoints.API)'
+2022-11-28 08:52:55.782 +03:30 [INF] HTTP GET /api/News/GetList responded 200 in 2961.0015 ms
+2022-11-28 08:52:55.793 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:7100/api/News/GetList - - - 200 - application/json;+charset=utf-8 2976.1323ms
+2022-11-28 08:52:59.626 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:52:59.628 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:52:59.684 +03:30 [INF] Received HTTP response headers after 52.6468ms - 200
+2022-11-28 08:52:59.686 +03:30 [INF] End processing HTTP request after 59.1682ms - 200
+2022-11-28 08:53:29.599 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:53:29.602 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:53:29.649 +03:30 [INF] Received HTTP response headers after 45.5283ms - 200
+2022-11-28 08:53:29.650 +03:30 [INF] End processing HTTP request after 50.6301ms - 200
+2022-11-28 08:53:30.921 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:53:30.9218370+03:30"
+2022-11-28 08:53:30.943 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:53:30.9435315+03:30". Total record count is 10
+2022-11-28 08:53:59.602 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:53:59.604 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:53:59.651 +03:30 [INF] Received HTTP response headers after 45.2973ms - 200
+2022-11-28 08:53:59.652 +03:30 [INF] End processing HTTP request after 50.6787ms - 200
+2022-11-28 08:54:29.615 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:54:29.616 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:54:29.653 +03:30 [INF] Received HTTP response headers after 35.6784ms - 200
+2022-11-28 08:54:29.654 +03:30 [INF] End processing HTTP request after 39.9506ms - 200
+2022-11-28 08:54:30.923 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:54:30.9230460+03:30"
+2022-11-28 08:54:30.944 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:54:30.9443906+03:30". Total record count is 10
+2022-11-28 08:54:59.613 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:54:59.615 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:54:59.664 +03:30 [INF] Received HTTP response headers after 48.0476ms - 200
+2022-11-28 08:54:59.666 +03:30 [INF] End processing HTTP request after 52.5157ms - 200
+2022-11-28 08:55:29.608 +03:30 [INF] Start processing HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:55:29.616 +03:30 [INF] Sending HTTP request PUT "http://localhost:8761/eureka/apps/NEWSCMS/localhost:NewsCms:7101?status=UP&lastDirtyTimestamp=1669612949290"
+2022-11-28 08:55:29.651 +03:30 [INF] Received HTTP response headers after 34.2983ms - 200
+2022-11-28 08:55:29.652 +03:30 [INF] End processing HTTP request after 44.0825ms - 200
+2022-11-28 08:55:30.917 +03:30 [INF] Parrot Translator load localization recored at "2022-11-28T08:55:30.9178981+03:30"
+2022-11-28 08:55:30.943 +03:30 [INF] Parrot Translator loaded localization recored at "2022-11-28T08:55:30.9435511+03:30". Total record count is 10

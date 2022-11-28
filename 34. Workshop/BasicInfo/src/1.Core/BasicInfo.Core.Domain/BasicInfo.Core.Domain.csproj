@@ -7,8 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Zamin.Core.Domain" Version="6.3.0-beta.6" />
-    <PackageReference Include="Zamin.Core.Domain.Toolkits" Version="6.3.0-beta.6" />
+    <PackageReference Include="Zamin.Core.Domain" Version="6.3.0-beta.8" />
+    <PackageReference Include="Zamin.Core.Domain.Toolkits" Version="6.3.0-beta.8" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,146 @@
+2022-11-28 08:43:21.498 +03:30 [INF] User profile is available. Using 'C:\Users\Alireza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-28 08:43:21.660 +03:30 [INF] Now listening on: https://localhost:7095
+2022-11-28 08:43:21.661 +03:30 [INF] Now listening on: http://localhost:5095
+2022-11-28 08:43:21.664 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-28 08:43:21.665 +03:30 [INF] Hosting environment: Development
+2022-11-28 08:43:21.666 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NewCMSClient\
+2022-11-28 08:43:22.511 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/ - -
+2022-11-28 08:43:22.814 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2022-11-28 08:43:23.573 +03:30 [INF] AuthenticationScheme: oidc was challenged.
+2022-11-28 08:43:23.579 +03:30 [INF] HTTP GET / responded 302 in 1017.6109 ms
+2022-11-28 08:43:23.597 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/ - - - 302 0 - 1090.4860ms
+2022-11-28 08:43:29.147 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7095/signin-oidc application/x-www-form-urlencoded 648
+2022-11-28 08:43:29.889 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2022-11-28 08:43:29.891 +03:30 [INF] HTTP POST /signin-oidc responded 302 in 741.0717 ms
+2022-11-28 08:43:29.893 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7095/signin-oidc application/x-www-form-urlencoded 648 - 302 0 - 746.8850ms
+2022-11-28 08:43:29.902 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/ - -
+2022-11-28 08:43:29.909 +03:30 [INF] Executing endpoint 'NewCMSClient.Controllers.HomeController.Index (NewCMSClient)'
+2022-11-28 08:43:29.917 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NewCMSClient.Controllers.HomeController (NewCMSClient).
+2022-11-28 08:43:29.957 +03:30 [INF] Executing action method NewCMSClient.Controllers.HomeController.Index (NewCMSClient) - Validation state: "Valid"
+2022-11-28 08:43:29.962 +03:30 [INF] Executed action method NewCMSClient.Controllers.HomeController.Index (NewCMSClient), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.5946ms.
+2022-11-28 08:43:29.971 +03:30 [INF] Executing ViewResult, running view Index.
+2022-11-28 08:43:30.074 +03:30 [INF] Executed ViewResult - view Index executed in 104.1824ms.
+2022-11-28 08:43:30.080 +03:30 [INF] Executed action NewCMSClient.Controllers.HomeController.Index (NewCMSClient) in 161.4763ms
+2022-11-28 08:43:30.081 +03:30 [INF] Executed endpoint 'NewCMSClient.Controllers.HomeController.Index (NewCMSClient)'
+2022-11-28 08:43:30.082 +03:30 [INF] HTTP GET / responded 200 in 178.4330 ms
+2022-11-28 08:43:30.109 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/ - - - 200 - text/html;+charset=utf-8 206.7066ms
+2022-11-28 08:43:30.125 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/lib/bootstrap/dist/css/bootstrap.rtl.min.css - -
+2022-11-28 08:43:30.128 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/css/style.min.css - -
+2022-11-28 08:43:30.127 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/lib/materialdesignicons/dist/css/materialdesignicons.min.css - -
+2022-11-28 08:43:30.128 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/lib/iransans/dist/css/iransans/iransans-fontface.css - -
+2022-11-28 08:43:30.128 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - -
+2022-11-28 08:43:30.135 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - -
+2022-11-28 08:43:30.140 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - - - 200 11993 application/javascript;+charset=utf-8 12.4196ms
+2022-11-28 08:43:30.162 +03:30 [INF] Sending file. Request path: '/lib/iransans/dist/css/iransans/iransans-fontface.css'. Physical path: 'F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NewCMSClient\wwwroot\lib\iransans\dist\css\iransans\iransans-fontface.css'
+2022-11-28 08:43:30.165 +03:30 [INF] HTTP GET /lib/iransans/dist/css/iransans/iransans-fontface.css responded 200 in 32.4091 ms
+2022-11-28 08:43:30.168 +03:30 [INF] Sending file. Request path: '/css/style.min.css'. Physical path: 'F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NewCMSClient\wwwroot\css\style.min.css'
+2022-11-28 08:43:30.168 +03:30 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.rtl.min.css'. Physical path: 'F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NewCMSClient\wwwroot\lib\bootstrap\dist\css\bootstrap.rtl.min.css'
+2022-11-28 08:43:30.168 +03:30 [INF] Sending file. Request path: '/lib/materialdesignicons/dist/css/materialdesignicons.min.css'. Physical path: 'F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NewCMSClient\wwwroot\lib\materialdesignicons\dist\css\materialdesignicons.min.css'
+2022-11-28 08:43:30.168 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/lib/iransans/dist/css/iransans/iransans-fontface.css - - - 200 5135 text/css 40.7043ms
+2022-11-28 08:43:30.170 +03:30 [INF] HTTP GET /css/style.min.css responded 200 in 40.3321 ms
+2022-11-28 08:43:30.171 +03:30 [INF] HTTP GET /lib/bootstrap/dist/css/bootstrap.rtl.min.css responded 200 in 42.4762 ms
+2022-11-28 08:43:30.172 +03:30 [INF] HTTP GET /lib/materialdesignicons/dist/css/materialdesignicons.min.css responded 200 in 41.4354 ms
+2022-11-28 08:43:30.174 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/css/style.min.css - - - 200 148 text/css 46.3827ms
+2022-11-28 08:43:30.176 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/lib/bootstrap/dist/css/bootstrap.rtl.min.css - - - 200 163984 text/css 50.4027ms
+2022-11-28 08:43:30.177 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/lib/materialdesignicons/dist/css/materialdesignicons.min.css - - - 200 305024 text/css 50.1991ms
+2022-11-28 08:43:30.193 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 57.9676ms
+2022-11-28 08:43:30.213 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/lib/iransans/dist/fonts/IRANSansWeb/IRANSansWeb_Regular.woff2 - -
+2022-11-28 08:43:30.213 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/lib/iransans/dist/fonts/IRANSansWeb/IRANSansWeb_UltraLight.woff2 - -
+2022-11-28 08:43:30.224 +03:30 [INF] Sending file. Request path: '/lib/iransans/dist/fonts/IRANSansWeb/IRANSansWeb_UltraLight.woff2'. Physical path: 'F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NewCMSClient\wwwroot\lib\iransans\dist\fonts\IRANSansWeb\IRANSansWeb_UltraLight.woff2'
+2022-11-28 08:43:30.226 +03:30 [INF] HTTP GET /lib/iransans/dist/fonts/IRANSansWeb/IRANSansWeb_UltraLight.woff2 responded 200 in 9.6252 ms
+2022-11-28 08:43:30.228 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/lib/iransans/dist/fonts/IRANSansWeb/IRANSansWeb_UltraLight.woff2 - - - 200 30076 font/woff2 14.7461ms
+2022-11-28 08:43:30.229 +03:30 [INF] Sending file. Request path: '/lib/iransans/dist/fonts/IRANSansWeb/IRANSansWeb_Regular.woff2'. Physical path: 'F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NewCMSClient\wwwroot\lib\iransans\dist\fonts\IRANSansWeb\IRANSansWeb_Regular.woff2'
+2022-11-28 08:43:30.231 +03:30 [INF] HTTP GET /lib/iransans/dist/fonts/IRANSansWeb/IRANSansWeb_Regular.woff2 responded 200 in 16.3839 ms
+2022-11-28 08:43:30.232 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/lib/iransans/dist/fonts/IRANSansWeb/IRANSansWeb_Regular.woff2 - - - 200 31272 font/woff2 19.3693ms
+2022-11-28 08:43:30.251 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/favicon.ico - -
+2022-11-28 08:43:30.257 +03:30 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NewCMSClient\wwwroot\favicon.ico'
+2022-11-28 08:43:30.258 +03:30 [INF] HTTP GET /favicon.ico responded 200 in 5.9838 ms
+2022-11-28 08:43:30.259 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/favicon.ico - - - 200 5430 image/x-icon 8.3925ms
+2022-11-28 08:43:35.383 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/news/index - -
+2022-11-28 08:43:35.387 +03:30 [INF] Executing endpoint 'NewCMSClient.Controllers.NewsController.Index (NewCMSClient)'
+2022-11-28 08:43:35.396 +03:30 [INF] Route matched with {action = "Index", controller = "News"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller NewCMSClient.Controllers.NewsController (NewCMSClient).
+2022-11-28 08:43:35.408 +03:30 [INF] Executing action method NewCMSClient.Controllers.NewsController.Index (NewCMSClient) - Validation state: "Valid"
+2022-11-28 08:43:35.480 +03:30 [INF] Start Index Pocess at "2022-11-28T08:43:35.4804546+03:30"
+2022-11-28 08:43:40.445 +03:30 [INF] Start processing HTTP request GET "http://localhost:7300/news/api/News/GetList"
+2022-11-28 08:43:40.450 +03:30 [INF] Sending HTTP request GET "http://localhost:7300/news/api/News/GetList"
+2022-11-28 08:43:42.417 +03:30 [INF] Received HTTP response headers after 1962.9087ms - 200
+2022-11-28 08:43:42.419 +03:30 [INF] End processing HTTP request after 1975.0491ms - 200
+2022-11-28 08:43:42.524 +03:30 [INF] Executed action method NewCMSClient.Controllers.NewsController.Index (NewCMSClient), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7115.0395ms.
+2022-11-28 08:43:42.529 +03:30 [INF] Executing ViewResult, running view Index.
+2022-11-28 08:43:42.567 +03:30 [INF] Executed ViewResult - view Index executed in 38.8571ms.
+2022-11-28 08:43:42.569 +03:30 [INF] Executed action NewCMSClient.Controllers.NewsController.Index (NewCMSClient) in 7171.5254ms
+2022-11-28 08:43:42.570 +03:30 [INF] Executed endpoint 'NewCMSClient.Controllers.NewsController.Index (NewCMSClient)'
+2022-11-28 08:43:42.571 +03:30 [INF] HTTP GET /news/index responded 200 in 7185.4926 ms
+2022-11-28 08:43:42.575 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/news/index - - - 200 - text/html;+charset=utf-8 7191.6058ms
+2022-11-28 08:43:42.596 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/news/css/style.min.css - -
+2022-11-28 08:43:42.597 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - -
+2022-11-28 08:43:42.601 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - - - 200 11993 application/javascript;+charset=utf-8 3.7161ms
+2022-11-28 08:43:42.601 +03:30 [INF] HTTP GET /news/css/style.min.css responded 404 in 2.7170 ms
+2022-11-28 08:43:42.605 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/news/css/style.min.css - - - 404 0 - 8.9012ms
+2022-11-28 08:43:42.627 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - -
+2022-11-28 08:43:42.640 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 12.8283ms
+2022-11-28 08:43:42.686 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/lib/materialdesignicons/dist/fonts/materialdesignicons-webfont.woff2?v=6.5.95 - -
+2022-11-28 08:43:42.715 +03:30 [INF] Sending file. Request path: '/lib/materialdesignicons/dist/fonts/materialdesignicons-webfont.woff2'. Physical path: 'F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NewCMSClient\wwwroot\lib\materialdesignicons\dist\fonts\materialdesignicons-webfont.woff2'
+2022-11-28 08:43:42.717 +03:30 [INF] HTTP GET /lib/materialdesignicons/dist/fonts/materialdesignicons-webfont.woff2 responded 200 in 29.6264 ms
+2022-11-28 08:43:42.720 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/lib/materialdesignicons/dist/fonts/materialdesignicons-webfont.woff2?v=6.5.95 - - - 200 361384 font/woff2 33.5401ms
+2022-11-28 08:43:42.751 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/news/favicon.ico - -
+2022-11-28 08:43:42.756 +03:30 [INF] HTTP GET /news/favicon.ico responded 404 in 0.8893 ms
+2022-11-28 08:43:42.760 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/news/favicon.ico - - - 404 0 - 8.6028ms
+2022-11-28 08:52:37.697 +03:30 [INF] User profile is available. Using 'C:\Users\Alireza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-28 08:52:37.994 +03:30 [INF] Now listening on: https://localhost:7095
+2022-11-28 08:52:37.995 +03:30 [INF] Now listening on: http://localhost:5095
+2022-11-28 08:52:38.000 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-28 08:52:38.004 +03:30 [INF] Hosting environment: Development
+2022-11-28 08:52:38.005 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NewCMSClient\
+2022-11-28 08:52:39.031 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/ - -
+2022-11-28 08:52:39.309 +03:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2022-11-28 08:52:40.333 +03:30 [INF] AuthenticationScheme: oidc was challenged.
+2022-11-28 08:52:40.346 +03:30 [INF] HTTP GET / responded 302 in 1251.6623 ms
+2022-11-28 08:52:40.380 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/ - - - 302 0 - 1352.3635ms
+2022-11-28 08:52:44.823 +03:30 [INF] Request starting HTTP/2 POST https://localhost:7095/signin-oidc application/x-www-form-urlencoded 648
+2022-11-28 08:52:45.820 +03:30 [INF] AuthenticationScheme: Cookies signed in.
+2022-11-28 08:52:45.825 +03:30 [INF] HTTP POST /signin-oidc responded 302 in 995.6337 ms
+2022-11-28 08:52:45.831 +03:30 [INF] Request finished HTTP/2 POST https://localhost:7095/signin-oidc application/x-www-form-urlencoded 648 - 302 0 - 1008.3674ms
+2022-11-28 08:52:45.847 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/ - -
+2022-11-28 08:52:45.861 +03:30 [INF] Executing endpoint 'NewCMSClient.Controllers.HomeController.Index (NewCMSClient)'
+2022-11-28 08:52:45.888 +03:30 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller NewCMSClient.Controllers.HomeController (NewCMSClient).
+2022-11-28 08:52:45.972 +03:30 [INF] Executing action method NewCMSClient.Controllers.HomeController.Index (NewCMSClient) - Validation state: "Valid"
+2022-11-28 08:52:45.979 +03:30 [INF] Executed action method NewCMSClient.Controllers.HomeController.Index (NewCMSClient), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.6817ms.
+2022-11-28 08:52:45.994 +03:30 [INF] Executing ViewResult, running view Index.
+2022-11-28 08:52:46.157 +03:30 [INF] Executed ViewResult - view Index executed in 166.4243ms.
+2022-11-28 08:52:46.172 +03:30 [INF] Executed action NewCMSClient.Controllers.HomeController.Index (NewCMSClient) in 280.6275ms
+2022-11-28 08:52:46.175 +03:30 [INF] Executed endpoint 'NewCMSClient.Controllers.HomeController.Index (NewCMSClient)'
+2022-11-28 08:52:46.176 +03:30 [INF] HTTP GET / responded 200 in 326.9188 ms
+2022-11-28 08:52:46.218 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/ - - - 200 - text/html;+charset=utf-8 371.0186ms
+2022-11-28 08:52:46.261 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - -
+2022-11-28 08:52:46.275 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - - - 200 11993 application/javascript;+charset=utf-8 14.5282ms
+2022-11-28 08:52:46.276 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - -
+2022-11-28 08:52:46.320 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 44.1175ms
+2022-11-28 08:52:52.445 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/news/index - -
+2022-11-28 08:52:52.457 +03:30 [INF] Executing endpoint 'NewCMSClient.Controllers.NewsController.Index (NewCMSClient)'
+2022-11-28 08:52:52.483 +03:30 [INF] Route matched with {action = "Index", controller = "News"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index() on controller NewCMSClient.Controllers.NewsController (NewCMSClient).
+2022-11-28 08:52:52.514 +03:30 [INF] Executing action method NewCMSClient.Controllers.NewsController.Index (NewCMSClient) - Validation state: "Valid"
+2022-11-28 08:52:52.572 +03:30 [INF] Start Index Pocess at "2022-11-28T08:52:52.5717814+03:30"
+2022-11-28 08:52:52.607 +03:30 [INF] Start processing HTTP request GET "http://localhost:7300/news/api/News/GetList"
+2022-11-28 08:52:52.613 +03:30 [INF] Sending HTTP request GET "http://localhost:7300/news/api/News/GetList"
+2022-11-28 08:52:55.846 +03:30 [INF] Received HTTP response headers after 3227.8062ms - 200
+2022-11-28 08:52:55.848 +03:30 [INF] End processing HTTP request after 3247.528ms - 200
+2022-11-28 08:52:55.994 +03:30 [INF] Executed action method NewCMSClient.Controllers.NewsController.Index (NewCMSClient), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3452.5669ms.
+2022-11-28 08:52:56.002 +03:30 [INF] Executing ViewResult, running view Index.
+2022-11-28 08:52:56.040 +03:30 [INF] Executed ViewResult - view Index executed in 39.7143ms.
+2022-11-28 08:52:56.043 +03:30 [INF] Executed action NewCMSClient.Controllers.NewsController.Index (NewCMSClient) in 3557.759ms
+2022-11-28 08:52:56.044 +03:30 [INF] Executed endpoint 'NewCMSClient.Controllers.NewsController.Index (NewCMSClient)'
+2022-11-28 08:52:56.045 +03:30 [INF] HTTP GET /news/index responded 200 in 3595.0180 ms
+2022-11-28 08:52:56.049 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/news/index - - - 200 - text/html;+charset=utf-8 3604.2375ms
+2022-11-28 08:52:56.088 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - -
+2022-11-28 08:52:56.088 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/news/css/style.min.css - -
+2022-11-28 08:52:56.093 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/_framework/aspnetcore-browser-refresh.js - - - 200 11993 application/javascript;+charset=utf-8 4.5413ms
+2022-11-28 08:52:56.103 +03:30 [INF] HTTP GET /news/css/style.min.css responded 404 in 8.1631 ms
+2022-11-28 08:52:56.109 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/_vs/browserLink - -
+2022-11-28 08:52:56.112 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/news/css/style.min.css - - - 404 0 - 24.4739ms
+2022-11-28 08:52:56.126 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 17.0544ms
+2022-11-28 08:52:56.302 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7095/news/favicon.ico - -
+2022-11-28 08:52:56.306 +03:30 [INF] HTTP GET /news/favicon.ico responded 404 in 2.2326 ms
+2022-11-28 08:52:56.310 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7095/news/favicon.ico - - - 404 0 - 8.5027ms

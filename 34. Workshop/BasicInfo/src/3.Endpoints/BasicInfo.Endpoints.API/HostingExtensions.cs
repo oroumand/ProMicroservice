@@ -8,6 +8,7 @@ using Steeltoe.Discovery.Client;
 using BasicInfo.Endpoints.API.BackgroundTasks;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
+using Zamin.Utilities.OpenTelemetryRegistration.Extensions.DependencyInjection;
 
 namespace BasicInfo.Endpoints.API;
 
@@ -46,7 +47,10 @@ public static class HostingExtensions
             });
         });
 
-        builder.Services.AddZaminWebUserInfoService(true);
+        builder.Services.AddZaminWebUserInfoService(c =>
+        {
+            c.DefaultUserId = "Unknown";
+        },true);
 
         builder.Services.AddZaminAutoMapperProfiles(option =>
         {
@@ -68,6 +72,15 @@ public static class HostingExtensions
         builder.Services.AddSwaggerGen();
         builder.Services.AddHealthChecks()
             .AddDbContextCheck<BasicInfoQueryDbContext>();
+
+        builder.Services.AddZaminTraceJeager(c =>
+        {
+            c.AgentHost = "localhost";
+            c.ApplicationName = "NewsCMS";
+            c.ServiceName = "BasicInfo";
+            c.ServiceVersion = "1.0.0";
+            c.ServiceId = "cb387bb6-9a66-444f-92b2-ff64e2a81f99";
+        });
         return builder.Build();
     }
     public static WebApplication ConfigurePipeline(this WebApplication app)

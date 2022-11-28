@@ -7,6 +7,7 @@ using NewCms.Infra.Data.Sql.Queries.Common;
 using Steeltoe.Discovery.Client;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using NewCms.Endpoints.API.BackgroundTasks;
+using Zamin.Utilities.OpenTelemetryRegistration.Extensions.DependencyInjection;
 
 namespace NewCms.Endpoints.API;
 
@@ -69,6 +70,15 @@ public static class HostingExtensions
         builder.Services.AddSwaggerGen();
         builder.Services.AddHealthChecks()
                         .AddDbContextCheck<NewCmsQueryDbContext>(); ;
+
+        builder.Services.AddZaminTraceJeager(c =>
+        {
+            c.AgentHost = "localhost";
+            c.ApplicationName = "NewsCMS";
+            c.ServiceName = "NewsCMS";
+            c.ServiceVersion = "1.0.0";
+            c.ServiceId = "cb387bb6-9a66-444f-92b2-ff64e2a82f99";
+        });
         return builder.Build();
     }
     public static WebApplication ConfigurePipeline(this WebApplication app)

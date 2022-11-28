@@ -1,0 +1,60 @@
+2022-11-28 08:43:22.703 +03:30 [INF] User profile is available. Using 'C:\Users\Alireza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-28 08:43:22.891 +03:30 [INF] Start processing HTTP request GET "http://localhost:8761/eureka/apps/"
+2022-11-28 08:43:22.900 +03:30 [INF] Sending HTTP request GET "http://localhost:8761/eureka/apps/"
+2022-11-28 08:43:23.131 +03:30 [INF] Received HTTP response headers after 226.3068ms - 200
+2022-11-28 08:43:23.135 +03:30 [INF] End processing HTTP request after 253.4017ms - 200
+2022-11-28 08:43:23.554 +03:30 [INF] Now listening on: https://localhost:7301
+2022-11-28 08:43:23.555 +03:30 [INF] Now listening on: http://localhost:7300
+2022-11-28 08:43:23.559 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-28 08:43:23.559 +03:30 [INF] Hosting environment: Development
+2022-11-28 08:43:23.560 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NcmsApiGateway\
+2022-11-28 08:43:24.558 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7301/ - -
+2022-11-28 08:43:24.627 +03:30 [INF] HTTP GET / responded 404 in 21.6943 ms
+2022-11-28 08:43:24.639 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7301/ - - - 404 0 - 84.1407ms
+2022-11-28 08:43:40.480 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:7300/news/api/News/GetList - -
+2022-11-28 08:43:40.483 +03:30 [INF] Executing endpoint 'NewsCmsRoute'
+2022-11-28 08:43:40.527 +03:30 [INF] Proxying to http://localhost:7100/api/News/GetList HTTP/2 RequestVersionOrLower no-streaming
+2022-11-28 08:43:42.387 +03:30 [INF] Received HTTP/1.1 response 200.
+2022-11-28 08:43:42.411 +03:30 [INF] Executed endpoint 'NewsCmsRoute'
+2022-11-28 08:43:42.413 +03:30 [INF] HTTP GET /news/api/News/GetList responded 200 in 1931.7129 ms
+2022-11-28 08:43:42.416 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:7300/news/api/News/GetList - - - 200 - application/json;+charset=utf-8 1936.1836ms
+2022-11-28 08:52:36.762 +03:30 [INF] User profile is available. Using 'C:\Users\Alireza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-11-28 08:52:36.990 +03:30 [INF] Start processing HTTP request GET "http://localhost:8761/eureka/apps/"
+2022-11-28 08:52:37.013 +03:30 [INF] Sending HTTP request GET "http://localhost:8761/eureka/apps/"
+2022-11-28 08:52:37.109 +03:30 [INF] Received HTTP response headers after 91.3063ms - 200
+2022-11-28 08:52:37.113 +03:30 [INF] End processing HTTP request after 130.1784ms - 200
+2022-11-28 08:52:37.649 +03:30 [INF] Now listening on: https://localhost:7301
+2022-11-28 08:52:37.650 +03:30 [INF] Now listening on: http://localhost:7300
+2022-11-28 08:52:37.655 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2022-11-28 08:52:37.656 +03:30 [INF] Hosting environment: Development
+2022-11-28 08:52:37.656 +03:30 [INF] Content root path: F:\Source\ProMicroservice\34. Workshop\NewCMSClient\NcmsApiGateway\
+2022-11-28 08:52:39.028 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7301/ - -
+2022-11-28 08:52:39.151 +03:30 [INF] HTTP GET / responded 404 in 36.5025 ms
+2022-11-28 08:52:39.170 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7301/ - - - 404 0 - 145.5200ms
+2022-11-28 08:52:52.673 +03:30 [INF] Request starting HTTP/1.1 GET http://localhost:7300/news/api/News/GetList - -
+2022-11-28 08:52:52.679 +03:30 [INF] Executing endpoint 'NewsCmsRoute'
+2022-11-28 08:52:52.749 +03:30 [INF] Proxying to http://localhost:7100/api/News/GetList HTTP/2 RequestVersionOrLower no-streaming
+2022-11-28 08:52:55.791 +03:30 [INF] Received HTTP/1.1 response 200.
+2022-11-28 08:52:55.833 +03:30 [INF] Executed endpoint 'NewsCmsRoute'
+2022-11-28 08:52:55.835 +03:30 [INF] HTTP GET /news/api/News/GetList responded 200 in 3159.8075 ms
+2022-11-28 08:52:55.839 +03:30 [INF] Request finished HTTP/1.1 GET http://localhost:7300/news/api/News/GetList - - - 200 - application/json;+charset=utf-8 3165.7581ms
+2022-11-28 08:53:07.250 +03:30 [INF] Start processing HTTP request GET "http://localhost:8761/eureka/apps/delta"
+2022-11-28 08:53:07.255 +03:30 [INF] Sending HTTP request GET "http://localhost:8761/eureka/apps/delta"
+2022-11-28 08:53:07.362 +03:30 [INF] Received HTTP response headers after 105.5969ms - 200
+2022-11-28 08:53:07.365 +03:30 [INF] End processing HTTP request after 115.2685ms - 200
+2022-11-28 08:53:37.249 +03:30 [INF] Start processing HTTP request GET "http://localhost:8761/eureka/apps/delta"
+2022-11-28 08:53:37.252 +03:30 [INF] Sending HTTP request GET "http://localhost:8761/eureka/apps/delta"
+2022-11-28 08:53:37.292 +03:30 [INF] Received HTTP response headers after 38.6151ms - 200
+2022-11-28 08:53:37.293 +03:30 [INF] End processing HTTP request after 44.23ms - 200
+2022-11-28 08:54:07.227 +03:30 [INF] Start processing HTTP request GET "http://localhost:8761/eureka/apps/delta"
+2022-11-28 08:54:07.233 +03:30 [INF] Sending HTTP request GET "http://localhost:8761/eureka/apps/delta"
+2022-11-28 08:54:07.271 +03:30 [INF] Received HTTP response headers after 36.4807ms - 200
+2022-11-28 08:54:07.273 +03:30 [INF] End processing HTTP request after 46.549ms - 200
+2022-11-28 08:54:37.238 +03:30 [INF] Start processing HTTP request GET "http://localhost:8761/eureka/apps/delta"
+2022-11-28 08:54:37.242 +03:30 [INF] Sending HTTP request GET "http://localhost:8761/eureka/apps/delta"
+2022-11-28 08:54:37.282 +03:30 [INF] Received HTTP response headers after 38.648ms - 200
+2022-11-28 08:54:37.283 +03:30 [INF] End processing HTTP request after 45.0072ms - 200
+2022-11-28 08:55:07.228 +03:30 [INF] Start processing HTTP request GET "http://localhost:8761/eureka/apps/delta"
+2022-11-28 08:55:07.231 +03:30 [INF] Sending HTTP request GET "http://localhost:8761/eureka/apps/delta"
+2022-11-28 08:55:07.277 +03:30 [INF] Received HTTP response headers after 44.9455ms - 200
+2022-11-28 08:55:07.279 +03:30 [INF] End processing HTTP request after 51.2399ms - 200
